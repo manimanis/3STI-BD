@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donnée / Information</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/default.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <aside>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#aside_navbar"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="aside_navbar"></div>
+      </div>
+    </nav>
+  </aside>
+
+  <main class="my-4 container">
+    <h1>Donnée / Information</h1>
+    <article>
+      <h2>Introduction</h2>
+      <section id="ex01">
+        <h3>Activité 1</h3>
+        <p>Est-ce qu'il s'agit de données ou d'informations ?</p>
+        <div class="d-print-none">
+          <table class="table table-sm table-bordered border-dark">
+            <thead>
+              <tr>
+                <th>Valeur</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="valeur, idx in valeurs">
+                <td>{{valeur}}</td>
+                <td>
+                  <label v-for="option, optIdx in options">{{optIdx > 0 ? "&nbsp;- ": ""}}<input type="radio"
+                      v-model="answers[idx]" v-bind:value="option" v-on:click="verifAnswers()">
+                    {{option}}</label>
+                </td>
+              </tr>
+              </tr>
+            </tbody>
+          </table>
+          <div v-if="correctAnswer">
+            <p>Transformer ces données en des informations. Puis interpéter.</p>
+          </div>
+        </div>
+        <div class="d-none d-print-block">
+          <table class="table table-sm table-bordered border-dark">
+            <thead>
+              <tr>
+                <th>Valeur</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="valeur, idx in valeurs">
+                <td>{{valeur}}</td>
+                <td>
+                  <label v-for="option, optIdx in options">{{optIdx > 0 ? "&nbsp;- ": ""}}<input type="radio"
+                      v-bind:value="option" v-bind:checked="optIdx == 0">
+                    {{option}}</label>
+                </td>
+              </tr>
+              </tr>
+            </tbody>
+          </table>
+          <p>Transformer ces données en des informations. Puis interpéter.</p>
+          <h4>Réponses</h4>
+          <ol>
+            <li>Ce <u>composant électronique</u> nécessite <strong>12V-50mA</strong> pour fonctionner correctement.</li>
+            <li>Pour préparer la <u>tarte aux pommes</u> il faut <strong>5 🍎</strong>.</li>
+            <li>La <u>finale de coupe du monde</u> est jouée le <strong>18/12/2022</strong>.</li>
+            <li>Le <u>débit de la carte réseau</u> est <strong>100Mbps</strong>.</li>
+            <li>Le <u>réservoir d'essence</u> est <strong>vide</strong>.</li>
+            <li>La <u>température ambiante aujourd'hui</u> est <strong>19°C</strong></li>
+          </ol>
+          <h4>Interprétation</h4>
+          <p>Une donnée est une information brute, sans contexte, représentée sous un format adapté à son traitement.
+          </p>
+          <p>Une information peut avoir plusieurs représentations.</p>
+          <p>Une information est le résultat de la contextualisation d'une ou de plusieurs données. Une même donnée peut
+            avoir plusieurs interprétations selon son contexte.</p>
+        </div>
+      </section>
+
+      <section id="ex02">
+        <h3>Activité 2</h3>
+        <p>Repondre aux questions suivantes :</p>
+        <ol>
+          <li>Calculer cent quarante deux plus trente huit.
+            <figure>
+              <img src="images/doc01/image01.png" alt="Opération de calcul dans différents formats" class="im-h-2">
+              <figcaption>Opération de calcul dans différents formats</figcaption>
+            </figure>
+          </li>
+          <li>Quelle est l'équipe qui a gagné la coupe du monde en 2022 ?
+            <p>C'est l'Argentine qui est le champion du monde de foot en 2022.</p>
+            <figure>
+              <img src="images/doc01/image02.png" alt="Carte de l'Amérique du sud" class="im-h-4">
+              <figcaption>Carte de l'Amérique du sud</figcaption>
+            </figure>
+          </li>
+          <li>Quelle est votre date de naissance ?
+            <div>
+              <p><label for="date-naiss">Date de naissance : </label>
+                <input type="date" id="date-naiss" v-model="date" v-on:input="updateDate" style="width: 8em;"> -
+                <span><strong>English US format : </strong> {{englishDate}}</span> -
+                <span><strong>ISO format : </strong> {{date}}</span>
+              </p>
+              <p><strong>En algorithmique :</strong></p>
+              <pre>jj &larr; {{userDate.getDate()}}
+mm &larr; {{userDate.getMonth() + 1}}
+aaaa &larr; {{userDate.getFullYear()}}</pre>
+              <p><strong>Nombre de secondes depuis 01/01/1970 (Linux epoch) au {{theDate}} :</strong> {{secondes}}
+                secondes</p>
+              <p><strong>Nombre de jours depuis 30/12/1899 (Date réf. LibreOffice) au {{theDate}}
+                  :</strong> {{jours}} jours</p>
+              <p><strong>Votre âge est </strong> {{Math.floor(ageJours / 365)}} ans ou {{ageJours}} jours</p>
+            </div>
+          </li>
+          <li>Quelle est votre note en mathématiques ?
+            <div>
+              <p><label for="note20">Note sur 20 :</label>
+                <input type="number" id="note20" min="0" max="20" step="0.25" v-model.number="note"
+                  v-on:change="updateNote()">
+              </p>
+              <p><strong>Note en système américain : </strong> {{amGrade}} - <strong>Note en système belge : </strong>
+                {{belgianGrade}}</p>
+            </div>
+          </li>
+          <li>Est-ce que vous êtes satisfait du système éducatif en Tunisie ? Oui / Non</li>
+          <li>Quel est votre niveau en français ? Médiocre / Mauvais / Moyen / Bon / Très bon / Excellent</li>
+        </ol>
+        <div class="d-none d-print-block">
+          <h4>Interprétation</h4>
+          <p>Pour pouvoir exploiter les données il faut les représenter sous un format adapté à leurs traitements.</p>
+
+          <p>Les données peuvent possèder divers formats dont :</p>
+          <ul>
+            <li><strong>Textuel</strong> : sous forme d'une chaîne de caractères.</li>
+            <li><strong>Numérique</strong> : sous forme d'un ou de plusieurs valeurs numériques.</li>
+            <li><strong>Booléen</strong> : sous forme d'une réponse à une question vrai ou faux.</li>
+          </ul>
+
+          <p>Finalement, on remarque qu'il existe principalement deux types de données :</p>
+          <ul>
+            <li>les <strong>données quantitatives</strong> , comme le nombre de chiens, ils prennent des valeurs
+              numériques qui nous permettent d'effectuer des opérations mathématiques. Ces données peuvent être
+              divisées en deux catégories :
+              <ul>
+                <li><strong>donnée continue</strong>, peut prendre n'importe quelle valeur numérique, y compris les
+                  valeurs décimales.</li>
+                <li>et <strong>discrètes</strong>, qui prend des valeurs dénombrables, comme par exemple le nombre
+                  de chiens.</li>
+              </ul>
+            </li>
+            <li>et des <strong>données catégorielles</strong>, comme la race, fréquemment utilisées pour
+              étiqueter un groupe ou un ensemble d'éléments. Ces données peuvent être classées dans deux catégories
+              :
+              <ul>
+                <li><strong>données ordinales</strong>, valeurs classées, par exemple le système de notes américain
+                  A+, A, A-, etc.</li>
+                <li>et <strong>données nominales</strong>, qui n'ont pas d'ordre de classement, par exemple les
+                  races des chiens : Labrador, Poodle, Pug, Chihuahua, etc.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h3>Exercice</h3>
+        <h4>Question 1</h4>
+        <p><strong>Pour chaque variable ci-dessous, identifiez-les comme quantitatives ou catégorielles.</strong></p>
+        <p>Code postal - Âge-Revenu - État matrimonial (Célibataire, Marié, Divorcé, etc.) - Hauteur - Notes
+          alphabétiques (A+, A, A-, B+, B, B-, ...) - Distance de trajet jusqu'au travail - Évaluations d'un sondage
+          (médiocre, correct, excellent) - Température - Vitesse moyenne</p>
+        <h4>Question 2</h4>
+        <p><strong>Pour chaque variable ci-dessous, identifiez chacune comme continue ou discrète.</strong></p>
+        <p>Distance du domicile au travail - Nombre de pages dans un livre - Quantité de pluie par an - Il est temps de
+          courir
+          un mile - Quantité d'eau consommée dans la journée - Nombre de téléphones portable par ménage</p>
+        <h4>Question 3</h4>
+        Exercice 3
+        <p><strong>Pour chaque variable ci-dessous, identifiez-les comme ordinales ou nominales.</strong></p>
+        <p>Notes alphabétiques (A, B+, B, B-, etc.) - Types de fruits (Pomme, Banane, etc.) - Note sur une enquête -
+          Types de races de chiens (berger allemand, colley, etc.) - Genres de films (Horreur, Comédie, etc.) - Le
+          genre - Nationalité - Formation (HS, Associates, Bachelor, Master, PhD, etc.)</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="d-print-none bg-dark text-white p-2">
+    <div class="text-center">Page créée par Mohamed Anis MANI avec ♥</div>
+    <div class="text-center small">Année scolaire : 2022/2023</div>
+  </footer>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/pages.js"></script>
+  <script src="assets/js/highlight.pack.js"></script>
+  <script src="assets/js/vue.min.js"></script>
+  <script src="assets/apps/app01.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+
+</html>
