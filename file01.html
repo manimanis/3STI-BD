@@ -31,7 +31,7 @@
       <h2>Introduction</h2>
       <section id="ex01">
         <h3>Activité 1</h3>
-        <p>Est-ce qu'il s'agit de données ou d'informations ?</p>
+        <p>Est-ce qu'il s'agit d'une donnée ou d'une information ?</p>
         <div class="d-print-none">
           <table class="table table-sm table-bordered border-dark">
             <thead>
@@ -79,12 +79,17 @@
           <p>Transformer ces données en des informations. Puis interpéter.</p>
           <h4>Réponses</h4>
           <ol>
-            <li>Ce <u>composant électronique</u> nécessite <strong>12V-50mA</strong> pour fonctionner correctement.</li>
-            <li>Pour préparer la <u>tarte aux pommes</u> il faut <strong>5 🍎</strong>.</li>
-            <li>La <u>finale de coupe du monde</u> est jouée le <strong>18/12/2022</strong>.</li>
-            <li>Le <u>débit de la carte réseau</u> est <strong>100Mbps</strong>.</li>
-            <li>Le <u>réservoir d'essence</u> est <strong>vide</strong>.</li>
-            <li>La <u>température ambiante aujourd'hui</u> est <strong>19°C</strong></li>
+            <li>Ce <u>composant électronique</u> nécessite <strong>12V-50mA</strong> pour fonctionner correctement.<br>
+              Ce <u>dipole</u> est parcouru par un courant de <strong>50mA</strong> et la différence de potentiel à ses
+              bornes est <strong>12V</strong>.</li>
+            <li>Pour préparer la <u>tarte aux pommes</u> il faut <strong>5 🍎</strong>.<br>
+              J'ai <u>acheté</u> <strong>5 🍎</strong> pour chacun de vous.</li>
+            <li>La <u>finale de coupe du monde</u> est jouée le <strong>18/12/2022</strong>.<br>
+              Vous êtes invités à mon <u>anniversaire</u> le <strong>18/02/2022</strong>.</li>
+            <li>Le <u>débit de la carte réseau</u> est <strong>100Mbps</strong>.<br></li>
+            <li>Le <u>réservoir d'essence</u> est <strong>vide</strong>.<br>
+              J'ai ouvert votre <u>email</u>, il était <strong>vide</strong>. Vous avez oublié d'écrire un message.</li>
+            <li>La <u>température ambiante aujourd'hui</u> est <strong>19°C</strong>.</li>
           </ol>
           <h4>Interprétation</h4>
           <p>Une donnée est une information brute, sans contexte, représentée sous un format adapté à son traitement.
@@ -99,30 +104,22 @@
         <h3>Activité 2</h3>
         <p>Repondre aux questions suivantes :</p>
         <ol>
-          <li>Calculer cent quarante deux plus trente huit.
-            <figure>
-              <img src="images/doc01/image01.png" alt="Opération de calcul dans différents formats" class="im-h-2">
-              <figcaption>Opération de calcul dans différents formats</figcaption>
-            </figure>
-          </li>
-          <li>Quelle est l'équipe qui a gagné la coupe du monde en 2022 ?
-            <p>C'est l'Argentine qui est le champion du monde de foot en 2022.</p>
-            <figure>
-              <img src="images/doc01/image02.png" alt="Carte de l'Amérique du sud" class="im-h-4">
-              <figcaption>Carte de l'Amérique du sud</figcaption>
-            </figure>
-          </li>
+          <li>Calculer cent quarante deux plus trente huit.</li>
+          <li>Quelle est l'équipe qui a gagné la coupe du monde en 2022 ?</li>
           <li>Quelle est votre date de naissance ?
             <div>
               <p><label for="date-naiss">Date de naissance : </label>
-                <input type="date" id="date-naiss" v-model="date" v-on:input="updateDate" style="width: 8em;"> -
-                <span><strong>English US format : </strong> {{englishDate}}</span> -
-                <span><strong>ISO format : </strong> {{date}}</span>
+                <input type="date" id="date-naiss" v-model="date" v-on:input="updateDate" style="width: 8em;">
+              </p>
+              <p><span><strong>Français : </strong> {{userDate.toLocaleDateString('fr-FR')}}</span> -
+                <span><strong>English US : </strong> {{englishDate}}</span> -
+                <span><strong>ISO 8601 : </strong> {{date}}</span>
               </p>
               <p><strong>En algorithmique :</strong></p>
               <pre>jj &larr; {{userDate.getDate()}}
 mm &larr; {{userDate.getMonth() + 1}}
-aaaa &larr; {{userDate.getFullYear()}}</pre>
+aaaa &larr; {{userDate.getFullYear()}}
+&Eacute;crire(jj, mm, aaaa)</pre>
               <p><strong>Nombre de secondes depuis 01/01/1970 (Linux epoch) au {{theDate}} :</strong> {{secondes}}
                 secondes</p>
               <p><strong>Nombre de jours depuis 30/12/1899 (Date réf. LibreOffice) au {{theDate}}
@@ -137,13 +134,57 @@ aaaa &larr; {{userDate.getFullYear()}}</pre>
                   v-on:change="updateNote()">
               </p>
               <p><strong>Note en système américain : </strong> {{amGrade}} - <strong>Note en système belge : </strong>
-                {{belgianGrade}}</p>
+                {{belgianGrade}} / 1000</p>
+              <table class="table table-bordered table-sm border-dark n12-col-eq">
+                <tbody>
+                  <tr>
+                    <th>Note</th>
+                    <td v-for="grade in americanGrades" class="text-center">{{grade[0]}}</td>
+                  </tr>
+                  <tr>
+                    <th>Min / 20</th>
+                    <td v-for="grade in americanGrades" class="text-center">{{grade[1]*4}}</td>
+                  </tr>
+                  <tr>
+                    <th>Max / 20</th>
+                    <td v-for="grade in americanGrades" class="text-center">{{grade[2]*4-0.01}}</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </li>
-          <li>Est-ce que vous êtes satisfait du système éducatif en Tunisie ? Oui / Non</li>
-          <li>Quel est votre niveau en français ? Médiocre / Mauvais / Moyen / Bon / Très bon / Excellent</li>
+          <li>Est-ce que vous êtes satisfait du système éducatif en Tunisie ?
+            <label v-for="option in reponsesPossibles"><input type="radio" v-model="userYesNoAnswer"
+                v-bind:value="option"> {{option}} &nbsp;</label>
+          </li>
+          <li>Quel est votre niveau en français ?
+            <label v-for="option in niveauxPossibles"><input type="radio" v-model="userLevel" v-bind:value="option">
+              {{option}} &nbsp;</label>
+          </li>
         </ol>
         <div class="d-none d-print-block">
+          <h4>Correction</h4>
+          <ol>
+            <li>Pour calculer il faut changer le format des données.
+              <figure>
+                <img src="images/doc01/image01.png" alt="Opération de calcul dans différents formats" class="im-h-3">
+                <figcaption>Opération de calcul dans différents formats</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>C'est l'Argentine qui est le champion du monde de foot en 2022. Ce pays se trouve en Amérique du sud.
+              </p>
+              <figure>
+                <img src="images/doc01/image02.png" alt="Carte de l'Amérique du sud" class="im-h-5">
+                <figcaption>Carte de l'Amérique du sud</figcaption>
+              </figure>
+            </li>
+            <li>Je suis né le {{userDate.toLocaleDateString('fr-FR')}}.</li>
+            <li>J'ai eu {{note}} sur 20 en mathématiques.</li>
+            <li>Je {{userYesNoAnswer == 'Non' ? 'ne suis pas' : 'suis'}} satisfait par le système éducatif en Tunisie.
+            </li>
+            <li>Mon niveau en français est {{userLevel}}.</li>
+          </ol>
           <h4>Interprétation</h4>
           <p>Pour pouvoir exploiter les données il faut les représenter sous un format adapté à leurs traitements.</p>
 
@@ -151,7 +192,7 @@ aaaa &larr; {{userDate.getFullYear()}}</pre>
           <ul>
             <li><strong>Textuel</strong> : sous forme d'une chaîne de caractères.</li>
             <li><strong>Numérique</strong> : sous forme d'un ou de plusieurs valeurs numériques.</li>
-            <li><strong>Booléen</strong> : sous forme d'une réponse à une question vrai ou faux.</li>
+            <li><strong>Booléen</strong> : sous forme d'une réponse de type vrai ou faux.</li>
           </ul>
 
           <p>Finalement, on remarque qu'il existe principalement deux types de données :</p>
@@ -166,7 +207,7 @@ aaaa &larr; {{userDate.getFullYear()}}</pre>
                   de chiens.</li>
               </ul>
             </li>
-            <li>et des <strong>données catégorielles</strong>, comme la race, fréquemment utilisées pour
+            <li class="p-break">et des <strong>données catégorielles</strong>, comme la race, fréquemment utilisées pour
               étiqueter un groupe ou un ensemble d'éléments. Ces données peuvent être classées dans deux catégories
               :
               <ul>
@@ -184,21 +225,46 @@ aaaa &larr; {{userDate.getFullYear()}}</pre>
         <h3>Exercice</h3>
         <h4>Question 1</h4>
         <p><strong>Pour chaque variable ci-dessous, identifiez-les comme quantitatives ou catégorielles.</strong></p>
-        <p>Code postal - Âge-Revenu - État matrimonial (Célibataire, Marié, Divorcé, etc.) - Hauteur - Notes
-          alphabétiques (A+, A, A-, B+, B, B-, ...) - Distance de trajet jusqu'au travail - Évaluations d'un sondage
-          (médiocre, correct, excellent) - Température - Vitesse moyenne</p>
+        <p>
+          <script>
+            let choix = ["Code postal", "Âge", "Revenu", "État matrimonial (Célibataire, Marié, Divorcé, etc.)",
+              "Hauteur", "Notes alphabétiques (A+, A, A-, B+, B, B-, ...)",
+              "Distance de trajet jusqu'au travail", "Évaluations d'un sondage (médiocre, correct, excellent)",
+              "Température", "Vitesse moyenne"];
+            for (let ch of choix) {
+              document.writeln('<span class="badge bg-secondary">', ch, '</span>, ');
+            }
+          </script>
+        </p>
         <h4>Question 2</h4>
         <p><strong>Pour chaque variable ci-dessous, identifiez chacune comme continue ou discrète.</strong></p>
-        <p>Distance du domicile au travail - Nombre de pages dans un livre - Quantité de pluie par an - Il est temps de
-          courir
-          un mile - Quantité d'eau consommée dans la journée - Nombre de téléphones portable par ménage</p>
+        <p>
+          <script>
+            choix = ["Distance du domicile au travail", "Nombre de pages dans un livre",
+              "Quantité de pluie par an", "Il est temps de courir un mile",
+              "Quantité d'eau consommée dans la journée", "Nombre de téléphones portable par ménage"];
+            for (let ch of choix) {
+              document.writeln('<span class="badge bg-secondary">', ch, '</span>, ');
+            }
+          </script>
+        </p>
         <h4>Question 3</h4>
-        Exercice 3
         <p><strong>Pour chaque variable ci-dessous, identifiez-les comme ordinales ou nominales.</strong></p>
-        <p>Notes alphabétiques (A, B+, B, B-, etc.) - Types de fruits (Pomme, Banane, etc.) - Note sur une enquête -
-          Types de races de chiens (berger allemand, colley, etc.) - Genres de films (Horreur, Comédie, etc.) - Le
-          genre - Nationalité - Formation (HS, Associates, Bachelor, Master, PhD, etc.)</p>
+        <p>
+          <script>
+            choix = ["Notes alphabétiques (A, B+, B, B-, etc.)", "Types de fruits (Pomme, Banane, etc.)",
+              "Note sur une enquête", "Types de races de chiens (berger allemand, colley, etc.)",
+              "Genres de films (Horreur, Comédie, etc.)", "Le genre (Garçon, Fille)", "Nationalité",
+              "Formation (HS, Associates, Bachelor, Master, PhD, etc.)"];
+            for (let ch of choix) {
+              document.writeln('<span class="badge bg-secondary">', ch, '</span>, ');
+            }
+          </script>
+        </p>
       </section>
+    </article>
+    <article>
+      
     </article>
   </main>
 

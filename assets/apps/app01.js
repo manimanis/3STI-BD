@@ -28,36 +28,36 @@ function randint(a, b) {
   return Math.floor(Math.random() * (b - a + 1));
 }
 
+const americanGrades = [
+  ['A+', 5.0, 5.0025],
+  ['A', 4.0, 5.0],
+  ['A-', 3.67, 4.0],
+  ['B+', 3.33, 3.67],
+  ['B', 3.0, 3.33],
+  ['B-', 2.67, 3.0],
+  ['C+', 2.33, 2.67],
+  ['C', 2.0, 2.33],
+  ['C-', 1.67, 2.0],
+  ['D', 1.0, 1.67],
+  ['F', 0.0, 1.0]
+];
+
+const reponsesPossibles = ['Oui', 'Non'];
+const niveauxPossibles = ['Médiocre', 'Mauvais', 'Moyen', 'Bon', 'Très bon', 'Excellent'];
 
 function gradeToLetter(grade) {
-  if (grade >= 5.0) {
-    return 'A+';
-  } else if (grade >= 4.0 && grade < 5.0) {
-    return 'A';
-  } else if (grade >= 3.67 && grade < 4.0) {
-    return 'A-';
-  } else if (grade >= 3.33 && grade < 3.67) {
-    return 'B+';
-  } else if (grade >= 3.0 && grade < 3.33) {
-    return 'B';
-  } else if (grade >= 2.67 && grade < 3.0) {
-    return 'B-';
-  } else if (grade >= 2.33 && grade < 2.67) {
-    return 'C+';
-  } else if (grade >= 2.0 && grade < 2.33) {
-    return 'C';
-  } else if (grade >= 1.67 && grade < 2.0) {
-    return 'C-';
-  } else if (grade >= 1.0 && grade < 1.67) {
-    return 'D';
-  } else if (grade < 1.0) {
-    return 'F';
+  for (let grd of americanGrades) {
+    if (grade >= grd[1]) {
+      return grd[0];
+    }
   }
+  return '';
 }
 
 const ex02 = new Vue({
   el: '#ex02',
   data: {
+    americanGrades: americanGrades,
     userDate: new Date(),
     theDate: null,
     englishDate: null,
@@ -67,7 +67,11 @@ const ex02 = new Vue({
     ageJours: 0,
     note: randint(0, 80) / 4,
     amGrade: 'A',
-    belgianGrade: 0.0
+    belgianGrade: 0.0,
+    reponsesPossibles: reponsesPossibles,
+    niveauxPossibles: niveauxPossibles,
+    userYesNoAnswer: reponsesPossibles[randint(0, reponsesPossibles.length - 1)],
+    userLevel: niveauxPossibles[randint(0, niveauxPossibles.length - 1)]
   },
   mounted: function () {
     this.updateDate();
