@@ -1,0 +1,1143 @@
+<notelev_xml>
+    <iuense>0077143288</iuense>
+    <libens>محمد أنيس ماني</libens>
+    <codeeetab>843010</codeeetab>
+    <libeetab>معهد حمام سوسة</libeetab>
+    <codeperiodexam>31</codeperiodexam>
+    <libperiodexam>الثلاثي الأول</libperiodexam>
+    <codeclass>31230202</codeclass>
+    <libeclass>ثانية تكنولوجيا الإعلامية 2</libeclass>
+    <codematiere>2001</codematiere>
+    <libematier>إعلامية</libematier>
+    <nbrclass>2</nbrclass>
+    <codedre>84</codedre>
+    <drear>ـسوسة</drear>
+    <nbrEleve>26</nbrEleve>
+    <codedisc>20</codedisc>
+    <libedisc>إعلامية</libedisc>
+    <typeepr>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <abretypeeprear>ف.م.</abretypeeprear>
+    </typeepr>
+    <typeepr>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <abretypeeprear>ع.ت.د</abretypeeprear>
+    </typeepr>
+    <typeepr>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <abretypeeprear>ف.ت.</abretypeeprear>
+    </typeepr>
+    <noteelev>
+        <numOrdre>1</numOrdre>
+        <prenomnom>ادم المزاز</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013365017179</IDENELEV>
+        <NOTEEPRE>18.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>1</numOrdre>
+        <prenomnom>ادم المزاز</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013365017179</IDENELEV>
+        <NOTEEPRE>15.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>1</numOrdre>
+        <prenomnom>ادم المزاز</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013365017179</IDENELEV>
+        <NOTEEPRE>08.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>2</numOrdre>
+        <prenomnom>ادم غوفة</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013390038735</IDENELEV>
+        <NOTEEPRE>17.75</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>2</numOrdre>
+        <prenomnom>ادم غوفة</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013390038735</IDENELEV>
+        <NOTEEPRE>12.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>2</numOrdre>
+        <prenomnom>ادم غوفة</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013390038735</IDENELEV>
+        <NOTEEPRE>06.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>3</numOrdre>
+        <prenomnom>اية اللجمي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046642</IDENELEV>
+        <NOTEEPRE>14.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>3</numOrdre>
+        <prenomnom>اية اللجمي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046642</IDENELEV>
+        <NOTEEPRE>15.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>3</numOrdre>
+        <prenomnom>اية اللجمي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046642</IDENELEV>
+        <NOTEEPRE>05.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>4</numOrdre>
+        <prenomnom>احمد بن موسى</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012975060914</IDENELEV>
+        <NOTEEPRE>16.75</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>4</numOrdre>
+        <prenomnom>احمد بن موسى</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012975060914</IDENELEV>
+        <NOTEEPRE>14.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>4</numOrdre>
+        <prenomnom>احمد بن موسى</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012975060914</IDENELEV>
+        <NOTEEPRE>07.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>5</numOrdre>
+        <prenomnom>احمد بشار القرماني</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013175041164</IDENELEV>
+        <NOTEEPRE>18.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>5</numOrdre>
+        <prenomnom>احمد بشار القرماني</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013175041164</IDENELEV>
+        <NOTEEPRE>15.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>5</numOrdre>
+        <prenomnom>احمد بشار القرماني</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013175041164</IDENELEV>
+        <NOTEEPRE>04.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>6</numOrdre>
+        <prenomnom>احمد امين بيوض</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012669030762</IDENELEV>
+        <NOTEEPRE>17.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>6</numOrdre>
+        <prenomnom>احمد امين بيوض</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012669030762</IDENELEV>
+        <NOTEEPRE>13.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>6</numOrdre>
+        <prenomnom>احمد امين بيوض</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012669030762</IDENELEV>
+        <NOTEEPRE>07.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>7</numOrdre>
+        <prenomnom>احمد سحيمي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013435035924</IDENELEV>
+        <NOTEEPRE>19.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن جدا</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>7</numOrdre>
+        <prenomnom>احمد سحيمي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013435035924</IDENELEV>
+        <NOTEEPRE>19.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن جدا</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>7</numOrdre>
+        <prenomnom>احمد سحيمي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013435035924</IDENELEV>
+        <NOTEEPRE>13.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن جدا</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>8</numOrdre>
+        <prenomnom>احمد مبارك الترجمان</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013499034605</IDENELEV>
+        <NOTEEPRE>18.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>ممتاز</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>8</numOrdre>
+        <prenomnom>احمد مبارك الترجمان</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013499034605</IDENELEV>
+        <NOTEEPRE>17.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>ممتاز</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>8</numOrdre>
+        <prenomnom>احمد مبارك الترجمان</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013499034605</IDENELEV>
+        <NOTEEPRE>19.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>ممتاز</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>9</numOrdre>
+        <prenomnom>احمد ضياء ابراهيم</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214035770</IDENELEV>
+        <NOTEEPRE>18.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>9</numOrdre>
+        <prenomnom>احمد ضياء ابراهيم</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214035770</IDENELEV>
+        <NOTEEPRE>10.75</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>9</numOrdre>
+        <prenomnom>احمد ضياء ابراهيم</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214035770</IDENELEV>
+        <NOTEEPRE>08.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>10</numOrdre>
+        <prenomnom>انس الرواتبي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214022737</IDENELEV>
+        <NOTEEPRE>17.75</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>10</numOrdre>
+        <prenomnom>انس الرواتبي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214022737</IDENELEV>
+        <NOTEEPRE>12.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>10</numOrdre>
+        <prenomnom>انس الرواتبي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214022737</IDENELEV>
+        <NOTEEPRE>03.75</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>11</numOrdre>
+        <prenomnom>ايمن ماني</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013346035592</IDENELEV>
+        <NOTEEPRE>19.75</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>11</numOrdre>
+        <prenomnom>ايمن ماني</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013346035592</IDENELEV>
+        <NOTEEPRE>15.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>11</numOrdre>
+        <prenomnom>ايمن ماني</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013346035592</IDENELEV>
+        <NOTEEPRE>12.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>12</numOrdre>
+        <prenomnom>اسراء اللجمي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046743</IDENELEV>
+        <NOTEEPRE>14.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>12</numOrdre>
+        <prenomnom>اسراء اللجمي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046743</IDENELEV>
+        <NOTEEPRE>13.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>12</numOrdre>
+        <prenomnom>اسراء اللجمي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046743</IDENELEV>
+        <NOTEEPRE>04.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>13</numOrdre>
+        <prenomnom>دانية الداعي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013384019883</IDENELEV>
+        <NOTEEPRE>15.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>13</numOrdre>
+        <prenomnom>دانية الداعي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013384019883</IDENELEV>
+        <NOTEEPRE>11.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>13</numOrdre>
+        <prenomnom>دانية الداعي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013384019883</IDENELEV>
+        <NOTEEPRE>09.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>متوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>14</numOrdre>
+        <prenomnom>ريان بوغريو</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013378024172</IDENELEV>
+        <NOTEEPRE>06.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>دون المتوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>14</numOrdre>
+        <prenomnom>ريان بوغريو</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013378024172</IDENELEV>
+        <NOTEEPRE>14.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>دون المتوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>14</numOrdre>
+        <prenomnom>ريان بوغريو</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013378024172</IDENELEV>
+        <NOTEEPRE>09.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>دون المتوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>15</numOrdre>
+        <prenomnom>شهد تومية</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013349029155</IDENELEV>
+        <NOTEEPRE>06.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>ضعيف</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>15</numOrdre>
+        <prenomnom>شهد تومية</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013349029155</IDENELEV>
+        <NOTEEPRE>11.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>ضعيف</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>15</numOrdre>
+        <prenomnom>شهد تومية</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013349029155</IDENELEV>
+        <NOTEEPRE>04.75</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>ضعيف</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>16</numOrdre>
+        <prenomnom>عمر الخصيبي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013348045112</IDENELEV>
+        <NOTEEPRE>18.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>16</numOrdre>
+        <prenomnom>عمر الخصيبي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013348045112</IDENELEV>
+        <NOTEEPRE>13.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>16</numOrdre>
+        <prenomnom>عمر الخصيبي</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013348045112</IDENELEV>
+        <NOTEEPRE>07.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>17</numOrdre>
+        <prenomnom>عمر ابن عمر</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013357045092</IDENELEV>
+        <NOTEEPRE>19.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>17</numOrdre>
+        <prenomnom>عمر ابن عمر</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013357045092</IDENELEV>
+        <NOTEEPRE>15.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>17</numOrdre>
+        <prenomnom>عمر ابن عمر</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013357045092</IDENELEV>
+        <NOTEEPRE>11.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>18</numOrdre>
+        <prenomnom>فادي عبد الله</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013262034101</IDENELEV>
+        <NOTEEPRE>13.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>18</numOrdre>
+        <prenomnom>فادي عبد الله</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013262034101</IDENELEV>
+        <NOTEEPRE>15.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>18</numOrdre>
+        <prenomnom>فادي عبد الله</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013262034101</IDENELEV>
+        <NOTEEPRE>09.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>19</numOrdre>
+        <prenomnom>محمد امين الصغير</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013267012726</IDENELEV>
+        <NOTEEPRE>09.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>دون المتوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>19</numOrdre>
+        <prenomnom>محمد امين الصغير</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013267012726</IDENELEV>
+        <NOTEEPRE>13.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>دون المتوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>19</numOrdre>
+        <prenomnom>محمد امين الصغير</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013267012726</IDENELEV>
+        <NOTEEPRE>05.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>دون المتوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>20</numOrdre>
+        <prenomnom>محمد امين قسومة</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012210037674</IDENELEV>
+        <NOTEEPRE>غ.ش.</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof/>
+    </noteelev>
+    <noteelev>
+        <numOrdre>20</numOrdre>
+        <prenomnom>محمد امين قسومة</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012210037674</IDENELEV>
+        <NOTEEPRE>غ.ش.</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof/>
+    </noteelev>
+    <noteelev>
+        <numOrdre>20</numOrdre>
+        <prenomnom>محمد امين قسومة</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012210037674</IDENELEV>
+        <NOTEEPRE>غ.ش.</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof/>
+    </noteelev>
+    <noteelev>
+        <numOrdre>21</numOrdre>
+        <prenomnom>محمد رايد محفوظ</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013553037838</IDENELEV>
+        <NOTEEPRE>17.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن جدا</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>21</numOrdre>
+        <prenomnom>محمد رايد محفوظ</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013553037838</IDENELEV>
+        <NOTEEPRE>18.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن جدا</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>21</numOrdre>
+        <prenomnom>محمد رايد محفوظ</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013553037838</IDENELEV>
+        <NOTEEPRE>17.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن جدا</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>22</numOrdre>
+        <prenomnom>محمد ياسين بن الفقيه</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013184044986</IDENELEV>
+        <NOTEEPRE>غ.ش.</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof/>
+    </noteelev>
+    <noteelev>
+        <numOrdre>22</numOrdre>
+        <prenomnom>محمد ياسين بن الفقيه</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013184044986</IDENELEV>
+        <NOTEEPRE>غ.ش.</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof/>
+    </noteelev>
+    <noteelev>
+        <numOrdre>22</numOrdre>
+        <prenomnom>محمد ياسين بن الفقيه</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013184044986</IDENELEV>
+        <NOTEEPRE>غ.ش.</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof/>
+    </noteelev>
+    <noteelev>
+        <numOrdre>23</numOrdre>
+        <prenomnom>محمد امين سهلول</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012195039555</IDENELEV>
+        <NOTEEPRE>غ.ش.</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>ضعيف</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>23</numOrdre>
+        <prenomnom>محمد امين سهلول</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012195039555</IDENELEV>
+        <NOTEEPRE>غ.ش.</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>ضعيف</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>23</numOrdre>
+        <prenomnom>محمد امين سهلول</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012195039555</IDENELEV>
+        <NOTEEPRE>05.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>ضعيف</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>24</numOrdre>
+        <prenomnom>هاشم المهيري</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012878006451</IDENELEV>
+        <NOTEEPRE>11.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>دون المتوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>24</numOrdre>
+        <prenomnom>هاشم المهيري</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012878006451</IDENELEV>
+        <NOTEEPRE>13.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>دون المتوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>24</numOrdre>
+        <prenomnom>هاشم المهيري</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012878006451</IDENELEV>
+        <NOTEEPRE>05.00</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>دون المتوسط</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>25</numOrdre>
+        <prenomnom>ياسمين يزيد</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013419030621</IDENELEV>
+        <NOTEEPRE>19.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن جدا</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>25</numOrdre>
+        <prenomnom>ياسمين يزيد</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013419030621</IDENELEV>
+        <NOTEEPRE>18.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن جدا</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>25</numOrdre>
+        <prenomnom>ياسمين يزيد</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013419030621</IDENELEV>
+        <NOTEEPRE>12.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>حسن جدا</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>26</numOrdre>
+        <prenomnom>يسري البامري</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013225016069</IDENELEV>
+        <NOTEEPRE>19.25</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>26</numOrdre>
+        <prenomnom>يسري البامري</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013225016069</IDENELEV>
+        <NOTEEPRE>12.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>26</numOrdre>
+        <prenomnom>يسري البامري</prenomnom>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013225016069</IDENELEV>
+        <NOTEEPRE>08.50</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof>قريب من الحسن</obseprof>
+    </noteelev>
+</notelev_xml>

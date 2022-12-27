@@ -113,15 +113,29 @@ ELEVES_3INFO = """31
 55
 56"""
 
-def save_notes(annee, trimestre, notes, evals, matiere, eleves):
+def save_notes(annee, trimestre, idClasse, idEtablissement, notes, evals, matiere, eleves):
     for idxEleve, idEleve in enumerate(eleves):
         for idxEval, eval in enumerate(evals):
-            sql = ("INSERT INTO Notes(annee, trimestre, idEleve, idMatiere, idEvaluation, note) " + 
-            "VALUES(:annee, :trimestre, :idEleve, :idMatiere, :idEvaluation, :note)")
+            sql = ("SELECT idEleveClasse "
+            "FROM Eleves_Classes "
+            "WHERE idClasse = :idClasse AND "
+            "  idEtablissement = :idEtablissement AND "
+            "  idEleve = :idEleve AND "
+            "  annee = :annee AND "
+            " trimestre = :trimestre")
             data = {
                 'annee': annee,
                 'trimestre': trimestre,
                 'idEleve': idEleve,
+                'idClasse': idClasse,
+                'idEtablissement': idEtablissement
+            }
+            cur = conn.execute(sql, data)
+            elcl = cur.fetchone()
+            sql = ("INSERT INTO Notes(idEleveClasse, idMatiere, idEvaluation, note) " + 
+            "VALUES(:idEleveClasse, :idMatiere, :idEvaluation, :note)")
+            data = {
+                'idEleveClasse': idEleve,
                 'idMatiere': matiere,
                 'idEvaluation': eval,
                 'note': notes[idxEleve][idxEval]
@@ -131,11 +145,12 @@ def save_notes(annee, trimestre, notes, evals, matiere, eleves):
 
 #-----------------
 conn = sqlite3.connect("downloads/notes_db/notes.db")
+conn.row_factory = sqlite3.Row
 
 notes_2info = [[float(note.replace(',', '.') + '0') for note in row.split("\t")] for row in NOTES_2INFO.split("\n")]
 eleves_2info = [int(idEleve) for idEleve in ELEVES_2INFO.split("\n")]
-save_notes(2022, 1, notes_2info, EVALS_2INFO, MATIERES_2INFO[0], eleves_2info)
+save_notes(2022, 1, 1, 1, notes_2info, EVALS_2INFO, MATIERES_2INFO[0], eleves_2info)
 
 notes_3info = [[float(note.replace(',', '.') + '0') for note in row.split("\t")] for row in NOTES_3INFO.split("\n")]
 eleves_3info = [int(idEleve) for idEleve in ELEVES_3INFO.split("\n")]
-save_notes(2022, 1, notes_3info, EVALS_3INFO, MATIERES_3INFO[0], eleves_2info)
+save_notes(2022, 1, 2, 1, notes_3info, EVALS_3INFO, MATIERES_3INFO[0], eleves_3info)
