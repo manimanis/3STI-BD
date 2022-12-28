@@ -1,4 +1,5 @@
-{'eleves': [{'CODEETAB': '843010',
+{'eleves': [
+    {'CODEETAB': '843010',
              'CODEMATI': '2003',
              'CODETYPEEPRE': '30',
              'CODETYPEMATI': '10',
@@ -1006,7 +1007,8 @@
              'numOrdre': '28',
              'obseprof': 'دون المتوسط',
              'prenomnom': 'يسري العيادي'}],
- 'epreuves': [{'CODEETAB': '843010',
+ 'epreuves': [
+    {'CODEETAB': '843010',
                'CODEMATI': '2003',
                'CODETYPEEPRE': '30',
                'CODETYPEMATI': '10',
@@ -1032,8 +1034,10 @@
                'NUMEEPRE': '1',
                'abretypeeprear': 'ف.ت.',
                'libTypeEpr': 'فرض تأليفي',
-               'libeMat': 'الأنظمة و تكنولوحيا المعلوماتية'}],
- 'generalInfos': {'codeclass': '31231301',
+               'libeMat': 'الأنظمة و تكنولوحيا المعلوماتية'}
+               ],
+ 'generalInfos': {
+    'codeclass': '31231301',
                   'codedisc': '20',
                   'codedre': '84',
                   'codeeetab': '843010',
@@ -1048,4 +1052,6 @@
                   'libens': 'محمد أنيس ماني',
                   'libperiodexam': 'الثلاثي الأول',
                   'nbrEleve': '28',
-                  'nbrclass': '2'}}
+                  'nbrclass': '2'
+                  }
+                  }
