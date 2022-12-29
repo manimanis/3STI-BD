@@ -12,6 +12,7 @@ table {
 
 table th, table td {
     border: #000 solid 1px;
+    padding: 4px;
 }
 
 tbody tr:nth-of-type(odd) {
@@ -50,12 +51,24 @@ tbody tr:nth-of-type(odd) .Jeu {
 .monthCalendar {
 	width: 300px;
 	border: #000 solid 1px;
-	margin: 15px auto;
+	margin: 5px auto;
+}
+
+.weekDays {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weekDay {
+    display: block;
+	width: calc(100% / 7);
+	text-align: center;
+	padding: 3px 0;
 }
 
 .monthName {
 	text-align: center;
-	padding: 10px;
+	padding: 4px;
 	background-color: lightgray;
 }
 
@@ -66,7 +79,19 @@ tbody tr:nth-of-type(odd) .Jeu {
 
 .monthDay {
 	display: block;
-	width: calc(100% / 5);
+	width: calc(100% / 7 - 2px);
 	text-align: center;
-	padding: 5px 0;
+	padding: 2px 0;
+	margin: 1px;
+}
+
+.monthDay.todayDate {
+    border: red solid 2px;
+    padding: 0px;
+}
+
+.highlightDate {
+	background-color: #eee;
+	border-radius: 5px;
+	cursor: pointer;
 }
