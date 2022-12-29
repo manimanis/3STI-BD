@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: #000 solid 1px;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #eee;
+}
+
+.Lun {
+	background-color: azure;
+}
+
+tbody tr:nth-of-type(odd) .Lun {
+    background-color: rgb(181, 205, 255);
+}
+
+.Mer {
+	background-color: beige;
+}
+
+tbody tr:nth-of-type(odd) .Mer {
+    background-color: rgb(253, 253, 168);
+}
+
+.Jeu {
+	background-color: rgb(255, 189, 189);
+}
+
+tbody tr:nth-of-type(odd) .Jeu {
+    background-color: rgb(253, 153, 153);
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.monthCalendar {
+	width: 300px;
+	border: #000 solid 1px;
+	margin: 15px auto;
+}
+
+.monthName {
+	text-align: center;
+	padding: 10px;
+	background-color: lightgray;
+}
+
+.monthDays {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.monthDay {
+	display: block;
+	width: calc(100% / 5);
+	text-align: center;
+	padding: 5px 0;
+}
