@@ -19,7 +19,7 @@ const app = new Vue({
     dates: dates,
     ident: ident,
     eleves: eleves,
-    data: Array(eleves.length).fill('-').map(() => Array(dates.length).fill('__')),
+    data: Array(eleves.length).fill('-').map(() => Array(dates.length).fill('')),
     nomsMois: mois,
     days: days,
     selectedDate: -1,
@@ -27,6 +27,7 @@ const app = new Vue({
     uploadDataText: '',
     mois: [],
     tempData: [],
+    elevesSummary: [],
     selectedField: {
       idxName: -1,
       idxDate: -1
@@ -69,7 +70,7 @@ const app = new Vue({
     },
     loadData: function () {
       if (window.localStorage.getItem('presence') == null) {
-        this.data = Array(this.eleves.length).fill('-').map(() => Array(this.dates.length).fill(''));
+        this.data = Array(this.eleves.length).fill('-').map(() => Array(this.dates.length).fill('UCC'));
         this.saveData();
       }
       this.data = JSON.parse(window.localStorage.getItem('presence'));
@@ -85,7 +86,13 @@ const app = new Vue({
     },
     selectDate: function (date) {
       const idxDate = this.getHighlightedDateIndex(date);
-      this.tempData = this.eleves.map((eleve, idxName) => this.data[idxName][idxDate]);
+      this.tempData = this.eleves.map((eleve, idxName) => {
+        let arr = this.data[idxName][idxDate].split('');
+        if (arr.length != 3 || (arr[0] != 'P' && arr[0] != 'N')) {
+          arr = ['U', 'C', 'C'];
+        }
+        return arr;
+      });
       this.selectedDate = idxDate;
     },
     beginChanging: function (idxName) {
@@ -98,13 +105,28 @@ const app = new Vue({
         ctrl.select();
       });
     },
+    keyup: function (e) {
+      if (e.key == 'Enter') {
+        this.endChanging();
+      } else if (e.key == 'Escape') {
+        this.tempData[this.selectedField.idxName] = this.selectedField.content;
+        this.endChanging();
+      }
+    },
     endChanging: function () {
       this.selectedField.idxName = -1;
       this.$forceUpdate();
     },
     saveChanges: function () {
       this.eleves.forEach((el, idxName) => {
-        this.data[idxName][this.selectedDate] = this.tempData[idxName];
+        if (this.tempData[idxName][0] == 'U') {
+          this.tempData[idxName][1] = 'C';
+          this.tempData[idxName][2] = 'C';
+        }
+        if (this.tempData[idxName][0] == 'N') {
+          this.tempData[idxName][2] = 'C';
+        }
+        this.data[idxName][this.selectedDate] = this.tempData[idxName].join('');
       });
       this.saveData();
       this.cancelChanges();
@@ -115,9 +137,20 @@ const app = new Vue({
     },
     setMode: function (mode) {
       this.mode = mode;
+      if (mode == 'download') {
+        this.uploadDataText = JSON.stringify(this.data);
+      } else if (mode == 'upload') {
+        this.uploadDataText = '';
+      } else if (mode == 'summary') {
+        this.prepareSummary();
+      }
     },
     downloadData: function () {
-      download('cahiers_' + new Date().toISOString() + '.json', JSON.stringify(this.data));
+      const regex = /[TZ\.]/gi;
+      let filename = new Date().toISOString()
+        .replaceAll(':', '-')
+        .replaceAll(regex, '_');
+      download(filename, JSON.stringify(this.data));
       this.setMode('menu');
     },
     uploadData: function () {
@@ -144,6 +177,30 @@ const app = new Vue({
       this.data = tmpData;
       this.saveData();
       this.setMode('menu');
+    },
+    prepareSummary: function () {
+      const ABC = 'ABC';
+      this.elevesSummary = this.eleves.map((el, idxName) => {
+        const p = this.data[idxName].reduce((pv, cv) => pv + (cv.indexOf('P') != -1), 0);
+        const j = this.data[idxName].reduce((pv, cv) => {
+          if (cv.length >= 2 && ABC.indexOf(cv[1]) != -1) {
+            pv[cv[1]]++;
+          }
+          return pv;
+        }, { 'A': 0, 'B': 0, 'C': 0 });
+        const p1 = this.data[idxName].reduce((pv, cv) => {
+          if (cv.length >= 3 && ABC.indexOf(cv[2]) != -1) {
+            pv[cv[2]]++;
+          }
+          return pv;
+        }, { 'A': 0, 'B': 0, 'C': 0 });
+        return {
+          total: this.dates.length,
+          presence: p,
+          jour: j,
+          precedent: p1
+        }
+      });
     }
   }
 });

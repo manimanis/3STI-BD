@@ -1,22 +1,31 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    direction: rtl;
+	direction: rtl;
+}
+
+h1 {
+	text-align: center;
 }
 
 table {
-    border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 table th, table td {
-    border: #000 solid 1px;
-    padding: 4px;
+	border: #000 solid 1px;
+	padding: 4px;
 }
 
 tbody tr:nth-of-type(odd) {
-    background-color: #eee;
+	background-color: #eee;
+}
+
+.list-group {
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .Lun {
@@ -24,7 +33,7 @@ tbody tr:nth-of-type(odd) {
 }
 
 tbody tr:nth-of-type(odd) .Lun {
-    background-color: rgb(181, 205, 255);
+	background-color: rgb(181, 205, 255);
 }
 
 .Mer {
@@ -32,7 +41,7 @@ tbody tr:nth-of-type(odd) .Lun {
 }
 
 tbody tr:nth-of-type(odd) .Mer {
-    background-color: rgb(253, 253, 168);
+	background-color: rgb(253, 253, 168);
 }
 
 .Jeu {
@@ -40,12 +49,12 @@ tbody tr:nth-of-type(odd) .Mer {
 }
 
 tbody tr:nth-of-type(odd) .Jeu {
-    background-color: rgb(253, 153, 153);
+	background-color: rgb(253, 153, 153);
 }
 
 .calendar {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .monthCalendar {
@@ -55,12 +64,12 @@ tbody tr:nth-of-type(odd) .Jeu {
 }
 
 .weekDays {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .weekDay {
-    display: block;
+	display: block;
 	width: calc(100% / 7);
 	text-align: center;
 	padding: 3px 0;
@@ -73,8 +82,8 @@ tbody tr:nth-of-type(odd) .Jeu {
 }
 
 .monthDays {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .monthDay {
@@ -86,8 +95,8 @@ tbody tr:nth-of-type(odd) .Jeu {
 }
 
 .monthDay.todayDate {
-    border: red solid 2px;
-    padding: 0px;
+	border: red solid 2px;
+	padding: 0px;
 }
 
 .highlightDate {

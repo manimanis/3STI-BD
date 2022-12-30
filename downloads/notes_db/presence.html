@@ -5,36 +5,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>مراقبة الكراسات</title>
   <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <main id="app" class="container my-5">
+  <main id="app" class="container my-4">
     <div v-if="mode == 'menu'">
       <h1>القائمة الرئيسية</h1>
-      <ul>
-        <li><a href="#" v-on:click.prevent="setMode('edit')">مراقبة الكراسات</a></li>
-        <li><a href="#" v-on:click.prevent="setMode('download')">حفظ المعطيات</a></li>
-        <li><a href="#" v-on:click.prevent="setMode('upload')">توريد المعطيات</a></li>
-      </ul>
+      <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action" v-on:click.prevent="setMode('edit')">مراقبة
+          الكراسات</button>
+        <button type="button" class="list-group-item list-group-item-action"
+          v-on:click.prevent="setMode('summary')">نتيجة مراقبة الكراسات</button>
+        <button type="button" class="list-group-item list-group-item-action"
+          v-on:click.prevent="setMode('download')">حفظ المعطيات</button>
+        <button type="button" class="list-group-item list-group-item-action"
+          v-on:click.prevent="setMode('upload')">توريد المعطيات</button>
+      </div>
     </div>
     <div v-if="mode == 'download'">
       <div class="my-2"><a href="#" v-on:click.prevent="setMode('menu')">الرجوع للقائمة الرئيسية</a></div>
       <h1>حفظ المعطيات</h1>
+      <p><textarea v-model="uploadDataText" cols="30" rows="10" class="form-control" dir="ltr"
+          placeholder="JSON content"></textarea></p>
       <div class="my-2"><a href="#" class="btn btn-primary" v-on:click.prevent="downloadData()">حفظ المعطيات</a></div>
     </div>
     <div v-if="mode == 'upload'">
       <div class="my-2"><a href="#" v-on:click.prevent="setMode('menu')">الرجوع للقائمة الرئيسية</a></div>
       <h1>توريد المعطيات</h1>
-      <p><textarea v-model="uploadDataText" cols="30" rows="10" class="form-control"></textarea></p>
+      <p><textarea v-model="uploadDataText" cols="30" rows="10" class="form-control" dir="ltr"
+          placeholder="JSON content"></textarea></p>
       <div class="my-2"><a href="#" class="btn btn-primary" v-on:click.prevent="uploadData()">توريد المعطيات</a></div>
     </div>
     <div v-if="mode == 'edit'">
-      <div class="my-2"><a href="#" v-on:click.prevent="setMode('menu')">الرجوع للقائمة الرئيسية</a></div>
-      <h1>مرلقبة الكراسات</h1>
+      <h1>مراقبة الكراسات</h1>
       <div v-if="selectedDate == -1">
+        <div class="my-2"><a href="#" v-on:click.prevent="setMode('menu')">الرجوع للقائمة الرئيسية</a></div>
         <div>
           <p>اختيار التاريخ لتسجيل الملاحظات.</p>
         </div>
@@ -68,12 +76,29 @@
             <tr v-for="name, idxName in eleves">
               <th>{{idxName+1}}</th>
               <td>{{name}}</td>
-              <td v-for="date, idxDate in dates" v-if="selectedDate == idxDate" v-bind:class="getColumnClass(date)"
-                v-on:click="beginChanging(idxName)">
-                <span v-if="selectedField.idxName != idxName">{{tempData[idxName].length >
-                  0 ? tempData[idxName] : "ملاحظات"}}</span>
-                <span v-else><input type="text" v-bind:id="'data'+idxName" class="form-control"
-                    v-model="tempData[idxName]" v-on:keyup.enter="endChanging()"></span>
+              <td v-for="date, idxDate in dates" v-if="selectedDate == idxDate" v-bind:class="getColumnClass(date)">
+                <div class="text-center">الكراس</div>
+                <div>
+                  <label><input type="radio" v-model="tempData[idxName][0]" value="U"> لا أدري</label>
+                  <label><input type="radio" v-model="tempData[idxName][0]" value="P"> موجود</label>
+                  <label><input type="radio" v-model="tempData[idxName][0]" value="N"> غ.موجود</label>
+                </div>
+                <div v-if="tempData[idxName][0] == 'P' || tempData[idxName][0] == 'N'">
+                  <div class="text-center">درس اليوم</div>
+                  <div>
+                    <label><input type="radio" v-model="tempData[idxName][1]" value="A"> كامل</label>
+                    <label><input type="radio" v-model="tempData[idxName][1]" value="B"> ناقص</label>
+                    <label><input type="radio" v-model="tempData[idxName][1]" value="C"> لا يوجد</label>
+                  </div>
+                </div>
+                <div v-if="tempData[idxName][0] == 'P'">
+                  <div class="text-center">الدروس الفائتة</div>
+                  <div>
+                    <label><input type="radio" v-model="tempData[idxName][2]" value="A"> كامل</label>
+                    <label><input type="radio" v-model="tempData[idxName][2]" value="B"> ناقص</label>
+                    <label><input type="radio" v-model="tempData[idxName][2]" value="C"> لا يوجد</label>
+                  </div>
+                </div>
               </td>
             </tr>
           </tbody>
@@ -84,7 +109,52 @@
         </div>
       </div>
     </div>
+    <div v-if="mode == 'summary'">
+      <div class="my-2"><a href="#" v-on:click.prevent="setMode('menu')">الرجوع للقائمة الرئيسية</a></div>
+      <h1>نتيجة مراقبة الكراسات</h1>
+
+      <ul>
+        <li>وجود كراس: و.ك.</li>
+        <li>درس اليوم مكتوب: د. اليوم</li>
+        <li>الدروس الفائتة: د. فائتة</li>
+      </ul>
+      <p>A = كامل, B = ناقص, C = غير مكتوب</p>
+      <table class="dataframe">
+        <thead>
+          <tr style="text-align: right;">
+            <th rowspan="2" class="undefined"></th>
+            <th rowspan="2" class="undefined">الإسم واللقب</th>
+            <th rowspan="2" colspan="2">و.ك.</th>
+            <th colspan="3">د. اليوم</th>
+            <th colspan="3">د. فائتة</th>
+          </tr>
+          <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="name, idxName in eleves">
+            <th>{{idxName+1}}</th>
+            <td>{{name}}</td>
+            <td>{{elevesSummary[idxName].presence}}</td>
+            <td>{{elevesSummary[idxName].total}}</td>
+            <td>{{elevesSummary[idxName].jour.A}}</td>
+            <td>{{elevesSummary[idxName].jour.B}}</td>
+            <td>{{elevesSummary[idxName].jour.C}}</td>
+            <td>{{elevesSummary[idxName].precedent.A}}</td>
+            <td>{{elevesSummary[idxName].precedent.B}}</td>
+            <td>{{elevesSummary[idxName].precedent.C}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </main>
+  <script src="../../assets/js/bootstrap.bundle.min.js"></script>
   <script src="../../assets/js/vue.min.js"></script>
   <script src="vueapp.js"></script>
 </body>
