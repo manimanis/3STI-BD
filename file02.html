@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base de données</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/default.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <aside>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#aside_navbar"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="aside_navbar"></div>
+      </div>
+    </nav>
+  </aside>
+
+  <main class="my-4 container">
+    <h1>Base de données</h1>
+    <article>
+      <h2>Mise en situation</h2>
+      <section>
+        <h3>Etude de cas</h3>
+        <p>Une agence de location de voitures utilise une feuille <strong>Microsoft Excel</strong> pour gérer la
+          location de ses voitures. La figure suivante présente un aperçu de quelques lignes de ce document.</p>
+        <figure>
+          <img src="images/doc02/table_location.png" alt="Tableau Excel de location de voitures">
+          <figcaption>Tableau Excel de location de voitures</figcaption>
+        </figure>
+        <p>Le gérant de cette agence se plaint de quelques défauts dans cette solution :</p>
+        <ul>
+          <li>Il doit à chaque fois retaper les mêmes informations du véhicule lorsque ce dernier est loué. Les noms des
+            véhicules et les informations des clients se répètent à chaque location.</li>
+          <li>Lorsqu'il recherche les locations effectuées par un client le résultat n'est pas assez pertinent. Le nom
+            d'un même client s'y trouve sous différentes formes, et même son numéro de téléphone il change souvent.</li>
+        </ul>
+        <p>Il veut des conseils qui lui permettent de mieux gérer son agence.</p>
+        <p><strong>Donnez lui quelques conseils.</strong></p>
+        <div class="d-none d-print-block">
+          <h4>Solution</h4>
+          <p>Voici quelques conseils qui pourraient aider le gérant de cette agence de location de voitures à améliorer
+            la gestion de son entreprise :</p>
+          <ol>
+            <li>
+              <p>Mettre en place une base de données relationnelle. Cela lui permettra de ne pas avoir à retaper les
+                mêmes informations à chaque location et de faciliter les recherches.</p>
+            </li>
+            <li>
+              <p>Normaliser les données : pour éviter que les noms des véhicules et les informations sur les clients ne
+                se répètent inutilement.</p>
+            </li>
+            <li>
+              <p>Etablir des relations entre les tables : pour relier les informations entre les tables et assurer
+                l'intégrité des données.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="d-print-none bg-dark text-white p-2">
+    <div class="text-center">Page créée par Mohamed Anis MANI avec ♥</div>
+    <div class="text-center small">Année scolaire : 2022/2023</div>
+  </footer>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/pages.js"></script>
+  <script src="assets/js/highlight.pack.js"></script>
+  <script src="assets/js/vue.min.js"></script>
+  <script src="assets/apps/app01.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+
+</html>
