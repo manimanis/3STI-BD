@@ -1,0 +1,1222 @@
+
+<notelev_xml>
+    <iuense>0077143288</iuense>
+    <libens>محمد أنيس ماني</libens>
+    <codeeetab>843010</codeeetab>
+    <libeetab>معهد حمام سوسة</libeetab>
+    <codeperiodexam>31</codeperiodexam>
+    <libperiodexam>الثلاثي الأول</libperiodexam>
+    <codeclass>31230202</codeclass>
+    <libeclass>ثانية تكنولوجيا الإعلامية 2</libeclass>
+    <codematiere>2001</codematiere>
+    <libematier>إعلامية</libematier>
+    <nbrclass>2</nbrclass>
+    <codedre>84</codedre>
+    <drear>ـسوسة</drear>
+    <nbrEleve>26</nbrEleve>
+    <codedisc>20</codedisc>
+    <libedisc>إعلامية</libedisc>
+    <typeepr>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <abretypeeprear>ف.م.</abretypeeprear>
+    </typeepr>
+    <typeepr>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <abretypeeprear>ع.ت.د</abretypeeprear>
+    </typeepr>
+    <typeepr>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <abretypeeprear>ف.ت.</abretypeeprear>
+    </typeepr>
+    <noteelev>
+        <numOrdre>1</numOrdre>
+        <prenomnom>ادم المزاز</prenomnom>
+        <prenomtute>عبد الكريم </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013365017179</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>2</numOrdre>
+        <prenomnom>ادم غوفة</prenomnom>
+        <prenomtute>علي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013390038735</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>3</numOrdre>
+        <prenomnom>اية اللجمي</prenomnom>
+        <prenomtute>المنجي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046642</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>4</numOrdre>
+        <prenomnom>احمد بن موسى</prenomnom>
+        <prenomtute>ماهر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012975060914</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>5</numOrdre>
+        <prenomnom>احمد بشار القرماني</prenomnom>
+        <prenomtute>سامي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013175041164</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>6</numOrdre>
+        <prenomnom>احمد امين بيوض</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012669030762</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>7</numOrdre>
+        <prenomnom>احمد سحيمي</prenomnom>
+        <prenomtute>نزار </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013435035924</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>8</numOrdre>
+        <prenomnom>احمد مبارك الترجمان</prenomnom>
+        <prenomtute>حمادي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013499034605</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>9</numOrdre>
+        <prenomnom>احمد ضياء ابراهيم</prenomnom>
+        <prenomtute>الطيب </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214035770</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>10</numOrdre>
+        <prenomnom>انس الرواتبي</prenomnom>
+        <prenomtute>رضا </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214022737</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>11</numOrdre>
+        <prenomnom>ايمن ماني</prenomnom>
+        <prenomtute>مراد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013346035592</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>12</numOrdre>
+        <prenomnom>اسراء اللجمي</prenomnom>
+        <prenomtute>المنجي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046743</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>13</numOrdre>
+        <prenomnom>دانية الداعي</prenomnom>
+        <prenomtute>الامجد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013384019883</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>14</numOrdre>
+        <prenomnom>ريان بوغريو</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013378024172</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>15</numOrdre>
+        <prenomnom>شهد تومية</prenomnom>
+        <prenomtute>جوهر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013349029155</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>16</numOrdre>
+        <prenomnom>عمر الخصيبي</prenomnom>
+        <prenomtute>علي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013348045112</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>17</numOrdre>
+        <prenomnom>عمر ابن عمر</prenomnom>
+        <prenomtute>المنصف </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013357045092</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>18</numOrdre>
+        <prenomnom>فادي عبد الله</prenomnom>
+        <prenomtute>محمد المنعم </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013262034101</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>19</numOrdre>
+        <prenomnom>محمد امين الصغير</prenomnom>
+        <prenomtute>عامر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013267012726</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>20</numOrdre>
+        <prenomnom>محمد امين قسومة</prenomnom>
+        <prenomtute>نوفل </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012210037674</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>21</numOrdre>
+        <prenomnom>محمد رايد محفوظ</prenomnom>
+        <prenomtute>فريد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013553037838</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>22</numOrdre>
+        <prenomnom>محمد ياسين بن الفقيه</prenomnom>
+        <prenomtute>سهيل </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013184044986</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>23</numOrdre>
+        <prenomnom>محمد امين سهلول</prenomnom>
+        <prenomtute>نصر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012195039555</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>24</numOrdre>
+        <prenomnom>هاشم المهيري</prenomnom>
+        <prenomtute>اسكندر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012878006451</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>25</numOrdre>
+        <prenomnom>ياسمين يزيد</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013419030621</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>26</numOrdre>
+        <prenomnom>يسري البامري</prenomnom>
+        <prenomtute>هشام </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013225016069</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>1</numOrdre>
+        <prenomnom>ادم المزاز</prenomnom>
+        <prenomtute>عبد الكريم </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013365017179</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>2</numOrdre>
+        <prenomnom>ادم غوفة</prenomnom>
+        <prenomtute>علي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013390038735</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>3</numOrdre>
+        <prenomnom>اية اللجمي</prenomnom>
+        <prenomtute>المنجي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046642</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>4</numOrdre>
+        <prenomnom>احمد بن موسى</prenomnom>
+        <prenomtute>ماهر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012975060914</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>5</numOrdre>
+        <prenomnom>احمد بشار القرماني</prenomnom>
+        <prenomtute>سامي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013175041164</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>6</numOrdre>
+        <prenomnom>احمد امين بيوض</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012669030762</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>7</numOrdre>
+        <prenomnom>احمد سحيمي</prenomnom>
+        <prenomtute>نزار </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013435035924</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>8</numOrdre>
+        <prenomnom>احمد مبارك الترجمان</prenomnom>
+        <prenomtute>حمادي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013499034605</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>9</numOrdre>
+        <prenomnom>احمد ضياء ابراهيم</prenomnom>
+        <prenomtute>الطيب </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214035770</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>10</numOrdre>
+        <prenomnom>انس الرواتبي</prenomnom>
+        <prenomtute>رضا </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214022737</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>11</numOrdre>
+        <prenomnom>ايمن ماني</prenomnom>
+        <prenomtute>مراد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013346035592</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>12</numOrdre>
+        <prenomnom>اسراء اللجمي</prenomnom>
+        <prenomtute>المنجي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046743</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>13</numOrdre>
+        <prenomnom>دانية الداعي</prenomnom>
+        <prenomtute>الامجد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013384019883</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>14</numOrdre>
+        <prenomnom>ريان بوغريو</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013378024172</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>15</numOrdre>
+        <prenomnom>شهد تومية</prenomnom>
+        <prenomtute>جوهر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013349029155</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>16</numOrdre>
+        <prenomnom>عمر الخصيبي</prenomnom>
+        <prenomtute>علي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013348045112</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>17</numOrdre>
+        <prenomnom>عمر ابن عمر</prenomnom>
+        <prenomtute>المنصف </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013357045092</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>18</numOrdre>
+        <prenomnom>فادي عبد الله</prenomnom>
+        <prenomtute>محمد المنعم </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013262034101</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>19</numOrdre>
+        <prenomnom>محمد امين الصغير</prenomnom>
+        <prenomtute>عامر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013267012726</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>20</numOrdre>
+        <prenomnom>محمد امين قسومة</prenomnom>
+        <prenomtute>نوفل </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012210037674</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>21</numOrdre>
+        <prenomnom>محمد رايد محفوظ</prenomnom>
+        <prenomtute>فريد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013553037838</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>22</numOrdre>
+        <prenomnom>محمد ياسين بن الفقيه</prenomnom>
+        <prenomtute>سهيل </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013184044986</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>23</numOrdre>
+        <prenomnom>محمد امين سهلول</prenomnom>
+        <prenomtute>نصر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012195039555</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>24</numOrdre>
+        <prenomnom>هاشم المهيري</prenomnom>
+        <prenomtute>اسكندر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012878006451</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>25</numOrdre>
+        <prenomnom>ياسمين يزيد</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013419030621</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>26</numOrdre>
+        <prenomnom>يسري البامري</prenomnom>
+        <prenomtute>هشام </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>32</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013225016069</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>عدد التقييم الدوري</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>1</numOrdre>
+        <prenomnom>ادم المزاز</prenomnom>
+        <prenomtute>عبد الكريم </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013365017179</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>2</numOrdre>
+        <prenomnom>ادم غوفة</prenomnom>
+        <prenomtute>علي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013390038735</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>3</numOrdre>
+        <prenomnom>اية اللجمي</prenomnom>
+        <prenomtute>المنجي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046642</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>4</numOrdre>
+        <prenomnom>احمد بن موسى</prenomnom>
+        <prenomtute>ماهر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012975060914</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>5</numOrdre>
+        <prenomnom>احمد بشار القرماني</prenomnom>
+        <prenomtute>سامي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013175041164</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>6</numOrdre>
+        <prenomnom>احمد امين بيوض</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012669030762</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>7</numOrdre>
+        <prenomnom>احمد سحيمي</prenomnom>
+        <prenomtute>نزار </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013435035924</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>8</numOrdre>
+        <prenomnom>احمد مبارك الترجمان</prenomnom>
+        <prenomtute>حمادي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013499034605</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>9</numOrdre>
+        <prenomnom>احمد ضياء ابراهيم</prenomnom>
+        <prenomtute>الطيب </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214035770</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>10</numOrdre>
+        <prenomnom>انس الرواتبي</prenomnom>
+        <prenomtute>رضا </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013214022737</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>11</numOrdre>
+        <prenomnom>ايمن ماني</prenomnom>
+        <prenomtute>مراد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013346035592</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>12</numOrdre>
+        <prenomnom>اسراء اللجمي</prenomnom>
+        <prenomtute>المنجي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013382046743</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>13</numOrdre>
+        <prenomnom>دانية الداعي</prenomnom>
+        <prenomtute>الامجد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013384019883</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>14</numOrdre>
+        <prenomnom>ريان بوغريو</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013378024172</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>15</numOrdre>
+        <prenomnom>شهد تومية</prenomnom>
+        <prenomtute>جوهر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013349029155</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>16</numOrdre>
+        <prenomnom>عمر الخصيبي</prenomnom>
+        <prenomtute>علي </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013348045112</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>17</numOrdre>
+        <prenomnom>عمر ابن عمر</prenomnom>
+        <prenomtute>المنصف </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013357045092</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>18</numOrdre>
+        <prenomnom>فادي عبد الله</prenomnom>
+        <prenomtute>محمد المنعم </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013262034101</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>19</numOrdre>
+        <prenomnom>محمد امين الصغير</prenomnom>
+        <prenomtute>عامر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013267012726</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>20</numOrdre>
+        <prenomnom>محمد امين قسومة</prenomnom>
+        <prenomtute>نوفل </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012210037674</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>21</numOrdre>
+        <prenomnom>محمد رايد محفوظ</prenomnom>
+        <prenomtute>فريد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013553037838</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>22</numOrdre>
+        <prenomnom>محمد ياسين بن الفقيه</prenomnom>
+        <prenomtute>سهيل </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013184044986</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>23</numOrdre>
+        <prenomnom>محمد امين سهلول</prenomnom>
+        <prenomtute>نصر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012195039555</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>24</numOrdre>
+        <prenomnom>هاشم المهيري</prenomnom>
+        <prenomtute>اسكندر </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012878006451</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>25</numOrdre>
+        <prenomnom>ياسمين يزيد</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013419030621</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>26</numOrdre>
+        <prenomnom>يسري البامري</prenomnom>
+        <prenomtute>هشام </prenomtute>
+        <CODEMATI>2001</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013225016069</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>إعلامية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+</notelev_xml>

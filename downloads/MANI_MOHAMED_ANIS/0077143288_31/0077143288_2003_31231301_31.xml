@@ -1,0 +1,1312 @@
+
+<notelev_xml>
+    <iuense>0077143288</iuense>
+    <libens>محمد أنيس ماني</libens>
+    <codeeetab>843010</codeeetab>
+    <libeetab>معهد حمام سوسة</libeetab>
+    <codeperiodexam>31</codeperiodexam>
+    <libperiodexam>الثلاثي الأول</libperiodexam>
+    <codeclass>31231301</codeclass>
+    <libeclass>ثالثة علوم إعلامية 1</libeclass>
+    <codematiere>2003</codematiere>
+    <libematier>الأنظمة و تكنولوحيا المعلوماتية</libematier>
+    <nbrclass>2</nbrclass>
+    <codedre>84</codedre>
+    <drear>ـسوسة</drear>
+    <nbrEleve>28</nbrEleve>
+    <codedisc>20</codedisc>
+    <libedisc>إعلامية</libedisc>
+    <typeepr>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <abretypeeprear>ف.م.</abretypeeprear>
+    </typeepr>
+    <typeepr>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <abretypeeprear>ف.م.</abretypeeprear>
+    </typeepr>
+    <typeepr>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <abretypeeprear>ف.ت.</abretypeeprear>
+    </typeepr>
+    <noteelev>
+        <numOrdre>1</numOrdre>
+        <prenomnom>ادم بن حميدة</prenomnom>
+        <prenomtute>هشام </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013062055564</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>2</numOrdre>
+        <prenomnom>ادم موقو</prenomnom>
+        <prenomtute>محمد حافظ </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012974053124</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>3</numOrdre>
+        <prenomnom>امل ابن مسعود</prenomnom>
+        <prenomtute>محي الدين </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012970024489</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>4</numOrdre>
+        <prenomnom>امل كريفة</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013103014321</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>5</numOrdre>
+        <prenomnom>ايهم الجديدي</prenomnom>
+        <prenomtute>زياد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013153036716</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>6</numOrdre>
+        <prenomnom>ابرار قعلول</prenomnom>
+        <prenomtute>مراد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013170016564</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>7</numOrdre>
+        <prenomnom>احمد عبد الرحيم غماري</prenomnom>
+        <prenomtute>رضا </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012883007611</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>8</numOrdre>
+        <prenomnom>امير الجديدي</prenomnom>
+        <prenomtute>صلاح </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012985016245</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>9</numOrdre>
+        <prenomnom>رايد الشمسي</prenomnom>
+        <prenomtute>منصر </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012600021124</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>10</numOrdre>
+        <prenomnom>رسلان الغرزول</prenomnom>
+        <prenomtute>هشام </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012303033901</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>11</numOrdre>
+        <prenomnom>ريان المخينيني</prenomnom>
+        <prenomtute>نادر </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012930056752</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>12</numOrdre>
+        <prenomnom>زينب بلخيرية</prenomnom>
+        <prenomtute>حاتم </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012870037596</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>13</numOrdre>
+        <prenomnom>صفاء زيراوي</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012954039596</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>14</numOrdre>
+        <prenomnom>عثمان المهيري</prenomnom>
+        <prenomtute>عبدالمولى </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012950018342</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>15</numOrdre>
+        <prenomnom>عمر الاخضر</prenomnom>
+        <prenomtute>يونس </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012477024215</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>16</numOrdre>
+        <prenomnom>فرح الحوار</prenomnom>
+        <prenomtute>كريم </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012985031403</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>17</numOrdre>
+        <prenomnom>لوي طالبي</prenomnom>
+        <prenomtute>شهاب </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013016007947</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>18</numOrdre>
+        <prenomnom>لينا بن عمر</prenomnom>
+        <prenomtute>لطفي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012741047909</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>19</numOrdre>
+        <prenomnom>ليندا عبد السلام</prenomnom>
+        <prenomtute>فتحي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013074006166</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>20</numOrdre>
+        <prenomnom>محمد بشار خليفة الهميسي</prenomnom>
+        <prenomtute>عبد الحميد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013005026941</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>21</numOrdre>
+        <prenomnom>محمد مهدي الزياني</prenomnom>
+        <prenomtute>نزار </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013081049376</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>22</numOrdre>
+        <prenomnom>محمد امين مسلم</prenomnom>
+        <prenomtute>لطفي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012571008525</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>23</numOrdre>
+        <prenomnom>مريم حسيون</prenomnom>
+        <prenomtute>محمود </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012786024684</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>24</numOrdre>
+        <prenomnom>محمد مهدي الدواس</prenomnom>
+        <prenomtute>عادل </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013057009241</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>25</numOrdre>
+        <prenomnom>محمد الهادي البجاوي</prenomnom>
+        <prenomtute>ماهر </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012466006530</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>26</numOrdre>
+        <prenomnom>نور عبد الجليل</prenomnom>
+        <prenomtute>سامي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013118022443</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>27</numOrdre>
+        <prenomnom>ياسين دحمان</prenomnom>
+        <prenomtute>الطيب </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012862029642</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>28</numOrdre>
+        <prenomnom>يسري العيادي</prenomnom>
+        <prenomtute>مصطفى </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013083029085</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة1</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>1</numOrdre>
+        <prenomnom>ادم بن حميدة</prenomnom>
+        <prenomtute>هشام </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013062055564</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>2</numOrdre>
+        <prenomnom>ادم موقو</prenomnom>
+        <prenomtute>محمد حافظ </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012974053124</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>3</numOrdre>
+        <prenomnom>امل ابن مسعود</prenomnom>
+        <prenomtute>محي الدين </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012970024489</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>4</numOrdre>
+        <prenomnom>امل كريفة</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013103014321</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>5</numOrdre>
+        <prenomnom>ايهم الجديدي</prenomnom>
+        <prenomtute>زياد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013153036716</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>6</numOrdre>
+        <prenomnom>ابرار قعلول</prenomnom>
+        <prenomtute>مراد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013170016564</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>7</numOrdre>
+        <prenomnom>احمد عبد الرحيم غماري</prenomnom>
+        <prenomtute>رضا </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012883007611</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>8</numOrdre>
+        <prenomnom>امير الجديدي</prenomnom>
+        <prenomtute>صلاح </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012985016245</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>9</numOrdre>
+        <prenomnom>رايد الشمسي</prenomnom>
+        <prenomtute>منصر </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012600021124</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>10</numOrdre>
+        <prenomnom>رسلان الغرزول</prenomnom>
+        <prenomtute>هشام </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012303033901</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>11</numOrdre>
+        <prenomnom>ريان المخينيني</prenomnom>
+        <prenomtute>نادر </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012930056752</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>12</numOrdre>
+        <prenomnom>زينب بلخيرية</prenomnom>
+        <prenomtute>حاتم </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012870037596</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>13</numOrdre>
+        <prenomnom>صفاء زيراوي</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012954039596</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>14</numOrdre>
+        <prenomnom>عثمان المهيري</prenomnom>
+        <prenomtute>عبدالمولى </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012950018342</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>15</numOrdre>
+        <prenomnom>عمر الاخضر</prenomnom>
+        <prenomtute>يونس </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012477024215</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>16</numOrdre>
+        <prenomnom>فرح الحوار</prenomnom>
+        <prenomtute>كريم </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012985031403</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>17</numOrdre>
+        <prenomnom>لوي طالبي</prenomnom>
+        <prenomtute>شهاب </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013016007947</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>18</numOrdre>
+        <prenomnom>لينا بن عمر</prenomnom>
+        <prenomtute>لطفي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012741047909</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>19</numOrdre>
+        <prenomnom>ليندا عبد السلام</prenomnom>
+        <prenomtute>فتحي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013074006166</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>20</numOrdre>
+        <prenomnom>محمد بشار خليفة الهميسي</prenomnom>
+        <prenomtute>عبد الحميد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013005026941</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>21</numOrdre>
+        <prenomnom>محمد مهدي الزياني</prenomnom>
+        <prenomtute>نزار </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013081049376</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>22</numOrdre>
+        <prenomnom>محمد امين مسلم</prenomnom>
+        <prenomtute>لطفي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012571008525</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>23</numOrdre>
+        <prenomnom>مريم حسيون</prenomnom>
+        <prenomtute>محمود </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012786024684</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>24</numOrdre>
+        <prenomnom>محمد مهدي الدواس</prenomnom>
+        <prenomtute>عادل </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013057009241</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>25</numOrdre>
+        <prenomnom>محمد الهادي البجاوي</prenomnom>
+        <prenomtute>ماهر </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012466006530</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>26</numOrdre>
+        <prenomnom>نور عبد الجليل</prenomnom>
+        <prenomtute>سامي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013118022443</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>27</numOrdre>
+        <prenomnom>ياسين دحمان</prenomnom>
+        <prenomtute>الطيب </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>012862029642</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>28</numOrdre>
+        <prenomnom>يسري العيادي</prenomnom>
+        <prenomtute>مصطفى </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>30</CODETYPEEPRE>
+        <NUMEEPRE>2</NUMEEPRE>
+        <IDENELEV>013083029085</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض مــراقبة2</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>1</numOrdre>
+        <prenomnom>ادم بن حميدة</prenomnom>
+        <prenomtute>هشام </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013062055564</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>2</numOrdre>
+        <prenomnom>ادم موقو</prenomnom>
+        <prenomtute>محمد حافظ </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012974053124</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>3</numOrdre>
+        <prenomnom>امل ابن مسعود</prenomnom>
+        <prenomtute>محي الدين </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012970024489</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>4</numOrdre>
+        <prenomnom>امل كريفة</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013103014321</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>5</numOrdre>
+        <prenomnom>ايهم الجديدي</prenomnom>
+        <prenomtute>زياد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013153036716</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>6</numOrdre>
+        <prenomnom>ابرار قعلول</prenomnom>
+        <prenomtute>مراد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013170016564</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>7</numOrdre>
+        <prenomnom>احمد عبد الرحيم غماري</prenomnom>
+        <prenomtute>رضا </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012883007611</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>8</numOrdre>
+        <prenomnom>امير الجديدي</prenomnom>
+        <prenomtute>صلاح </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012985016245</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>9</numOrdre>
+        <prenomnom>رايد الشمسي</prenomnom>
+        <prenomtute>منصر </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012600021124</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>10</numOrdre>
+        <prenomnom>رسلان الغرزول</prenomnom>
+        <prenomtute>هشام </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012303033901</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>11</numOrdre>
+        <prenomnom>ريان المخينيني</prenomnom>
+        <prenomtute>نادر </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012930056752</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>12</numOrdre>
+        <prenomnom>زينب بلخيرية</prenomnom>
+        <prenomtute>حاتم </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012870037596</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>13</numOrdre>
+        <prenomnom>صفاء زيراوي</prenomnom>
+        <prenomtute>محمد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012954039596</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>14</numOrdre>
+        <prenomnom>عثمان المهيري</prenomnom>
+        <prenomtute>عبدالمولى </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012950018342</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>15</numOrdre>
+        <prenomnom>عمر الاخضر</prenomnom>
+        <prenomtute>يونس </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012477024215</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>16</numOrdre>
+        <prenomnom>فرح الحوار</prenomnom>
+        <prenomtute>كريم </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012985031403</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>17</numOrdre>
+        <prenomnom>لوي طالبي</prenomnom>
+        <prenomtute>شهاب </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013016007947</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>18</numOrdre>
+        <prenomnom>لينا بن عمر</prenomnom>
+        <prenomtute>لطفي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012741047909</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>19</numOrdre>
+        <prenomnom>ليندا عبد السلام</prenomnom>
+        <prenomtute>فتحي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013074006166</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>20</numOrdre>
+        <prenomnom>محمد بشار خليفة الهميسي</prenomnom>
+        <prenomtute>عبد الحميد </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013005026941</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>21</numOrdre>
+        <prenomnom>محمد مهدي الزياني</prenomnom>
+        <prenomtute>نزار </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013081049376</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>22</numOrdre>
+        <prenomnom>محمد امين مسلم</prenomnom>
+        <prenomtute>لطفي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012571008525</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>23</numOrdre>
+        <prenomnom>مريم حسيون</prenomnom>
+        <prenomtute>محمود </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012786024684</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>24</numOrdre>
+        <prenomnom>محمد مهدي الدواس</prenomnom>
+        <prenomtute>عادل </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013057009241</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>25</numOrdre>
+        <prenomnom>محمد الهادي البجاوي</prenomnom>
+        <prenomtute>ماهر </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012466006530</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>26</numOrdre>
+        <prenomnom>نور عبد الجليل</prenomnom>
+        <prenomtute>سامي </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013118022443</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>27</numOrdre>
+        <prenomnom>ياسين دحمان</prenomnom>
+        <prenomtute>الطيب </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>012862029642</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+    <noteelev>
+        <numOrdre>28</numOrdre>
+        <prenomnom>يسري العيادي</prenomnom>
+        <prenomtute>مصطفى </prenomtute>
+        <CODEMATI>2003</CODEMATI>
+        <CODETYPEMATI>10</CODETYPEMATI>
+        <CODETYPEEPRE>40</CODETYPEEPRE>
+        <NUMEEPRE>1</NUMEEPRE>
+        <IDENELEV>013083029085</IDENELEV>
+        <NOTEEPRE>--.--</NOTEEPRE>
+        <CODEETAB>843010</CODEETAB>
+        <libTypeEpr>فرض تأليفي</libTypeEpr>
+        <libeMat>الأنظمة و تكنولوحيا المعلوماتية</libeMat>
+        <obseprof></obseprof>
+    </noteelev>
+</notelev_xml>

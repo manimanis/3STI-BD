@@ -175,7 +175,7 @@ aaaa &larr; {{userDate.getFullYear()}}
               <p>C'est l'Argentine qui est le champion du monde de foot en 2022. Ce pays se trouve en Amérique du sud.
               </p>
               <figure>
-                <img src="images/doc01/image02.png" alt="Carte de l'Amérique du sud" class="im-h-5">
+                <img src="images/doc01/image02.png" alt="Carte de l'Amérique du sud" class="im-h-7">
                 <figcaption>Carte de l'Amérique du sud</figcaption>
               </figure>
             </li>
@@ -195,7 +195,7 @@ aaaa &larr; {{userDate.getFullYear()}}
             <li><strong>Booléen</strong> : sous forme d'une réponse de type vrai ou faux.</li>
           </ul>
 
-          <p>Finalement, on remarque qu'il existe principalement deux types de données :</p>
+          <p class="p-break">Finalement, on remarque qu'il existe principalement deux types de données :</p>
           <ul>
             <li>les <strong>données quantitatives</strong> , comme le nombre de chiens, ils prennent des valeurs
               numériques qui nous permettent d'effectuer des opérations mathématiques. Ces données peuvent être
@@ -207,7 +207,7 @@ aaaa &larr; {{userDate.getFullYear()}}
                   de chiens.</li>
               </ul>
             </li>
-            <li class="p-break">et des <strong>données catégorielles</strong>, comme la race, fréquemment utilisées pour
+            <li>et des <strong>données catégorielles</strong>, comme la race, fréquemment utilisées pour
               étiqueter un groupe ou un ensemble d'éléments. Ces données peuvent être classées dans deux catégories
               :
               <ul>
@@ -236,6 +236,39 @@ aaaa &larr; {{userDate.getFullYear()}}
             }
           </script>
         </p>
+        <div class="d-none d-print-block">
+          <h4>Réponse</h4>
+          <table class="table table-bordered table-sm border-dark n2-col-eq">
+            <thead>
+              <tr>
+                <th>Variable catégorielles</th>
+                <th>Variable quantitives</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <script>
+                    choix = ["Code postal", "État matrimonial (Célibataire, Marié, Divorcé, etc.)",
+                      "Notes alphabétiques (A+, A, A-, B+, B, B-, ...)", "Évaluations d'un sondage (médiocre, correct, excellent)"];
+                    for (let ch of choix) {
+                      document.writeln('<span class="badge bg-secondary">', ch, '</span>, ');
+                    }
+                  </script>
+                </td>
+                <td>
+                  <script>
+                    choix = ["Revenu", "Hauteur", "Distance de trajet jusqu'au travail", "Température", "Vitesse moyenne"];
+                    for (let ch of choix) {
+                      document.writeln('<span class="badge bg-secondary">', ch, '</span>, ');
+                    }
+                  </script>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         <h4>Question 2</h4>
         <p><strong>Pour chaque variable ci-dessous, identifiez chacune comme continue ou discrète.</strong></p>
         <p>
@@ -248,6 +281,39 @@ aaaa &larr; {{userDate.getFullYear()}}
             }
           </script>
         </p>
+        <div class="d-none d-print-block">
+          <h4>Réponse</h4>
+          <table class="table table-bordered table-sm border-dark n2-col-eq">
+            <thead>
+              <tr>
+                <th>Variable continue</th>
+                <th>Variable discrète</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <script>
+                    choix = ["Distance du domicile au travail",
+                      "Quantité de pluie par an", "Il est temps de courir un mile",
+                      "Quantité d'eau consommée dans la journée",];
+                    for (let ch of choix) {
+                      document.writeln('<span class="badge bg-secondary">', ch, '</span>, ');
+                    }
+                  </script>
+                </td>
+                <td>
+                  <script>
+                    choix = ["Nombre de pages dans un livre", "Nombre de téléphones portable par ménage"];
+                    for (let ch of choix) {
+                      document.writeln('<span class="badge bg-secondary">', ch, '</span>, ');
+                    }
+                  </script>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <h4>Question 3</h4>
         <p><strong>Pour chaque variable ci-dessous, identifiez-les comme ordinales ou nominales.</strong></p>
         <p>
@@ -261,6 +327,40 @@ aaaa &larr; {{userDate.getFullYear()}}
             }
           </script>
         </p>
+        <div class="d-none d-print-block">
+          <h4>Réponse</h4>
+          <table class="table table-bordered table-sm border-dark n2-col-eq">
+            <thead>
+              <tr>
+                <th>Variable ordinale</th>
+                <th>Variable nominale</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <script>
+                    choix = ["Notes alphabétiques (A, B+, B, B-, etc.)",
+                      "Note sur une enquête", "Formation (HS, Associates, Bachelor, Master, PhD, etc.)"];
+                    for (let ch of choix) {
+                      document.writeln('<span class="badge bg-secondary">', ch, '</span>, ');
+                    }
+                  </script>
+                </td>
+                <td>
+                  <script>
+                    choix = ["Types de fruits (Pomme, Banane, etc.)",
+                      "Types de races de chiens (berger allemand, colley, etc.)",
+                      "Genres de films (Horreur, Comédie, etc.)", "Le genre (Garçon, Fille)", "Nationalité"];
+                    for (let ch of choix) {
+                      document.writeln('<span class="badge bg-secondary">', ch, '</span>, ');
+                    }
+                  </script>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
     </article>
   </main>
