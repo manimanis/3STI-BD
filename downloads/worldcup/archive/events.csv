@@ -1,0 +1,449 @@
+num_event,num_match,event,equipe1,equipe2
+1,1,buts,0,2
+2,1,carte jaune,4,2
+3,1,carte rouge,0,0
+4,1,faute,15,15
+5,1,hors jeu,3,4
+6,1,corner,1,3
+7,1,penaltiy,0,1
+8,2,buts,6,2
+9,2,carte jaune,0,2
+10,2,carte rouge,0,0
+11,2,faute,9,14
+12,2,hors jeu,2,2
+13,2,corner,8,0
+14,2,penaltiy,0,1
+15,3,buts,0,2
+16,3,carte jaune,2,1
+17,3,carte rouge,0,0
+18,3,faute,13,13
+19,3,hors jeu,2,1
+20,3,corner,6,7
+21,3,penaltiy,0,0
+22,4,buts,1,1
+23,4,carte jaune,4,2
+24,4,carte rouge,0,0
+25,4,faute,15,10
+26,4,hors jeu,1,1
+27,4,corner,5,3
+28,4,penaltiy,0,1
+29,5,buts,1,2
+30,5,carte jaune,0,6
+31,5,carte rouge,0,0
+32,5,faute,7,21
+33,5,hors jeu,10,1
+34,5,corner,9,2
+35,5,penaltiy,1,0
+36,6,buts,0,0
+37,6,carte jaune,2,1
+38,6,carte rouge,0,0
+39,6,faute,9,10
+40,6,hors jeu,1,1
+41,6,corner,11,9
+42,6,penaltiy,0,0
+43,7,buts,0,0
+44,7,carte jaune,2,1
+45,7,carte rouge,0,0
+46,7,faute,14,16
+47,7,hors jeu,3,0
+48,7,corner,6,5
+49,7,penaltiy,0,0
+50,8,buts,4,1
+51,8,carte jaune,0,3
+52,8,carte rouge,0,0
+53,8,faute,5,11
+54,8,hors jeu,0,0
+55,8,corner,8,1
+56,8,penaltiy,0,0
+57,9,buts,0,0
+58,9,carte jaune,1,0
+59,9,carte rouge,0,0
+60,9,faute,17,11
+61,9,hors jeu,0,1
+62,9,corner,0,5
+63,9,penaltiy,0,0
+64,10,buts,1,2
+65,10,carte jaune,0,0
+66,10,carte rouge,0,0
+67,10,faute,6,14
+68,10,hors jeu,4,4
+69,10,corner,6,6
+70,10,penaltiy,1,0
+71,11,buts,7,0
+72,11,carte jaune,0,2
+73,11,carte rouge,0,0
+74,11,faute,8,12
+75,11,hors jeu,3,7
+76,11,corner,5,0
+77,11,penaltiy,1,0
+78,12,buts,1,0
+79,12,carte jaune,3,2
+80,12,carte rouge,0,0
+81,12,faute,11,14
+82,12,hors jeu,0,1
+83,12,corner,4,4
+84,12,penaltiy,0,0
+85,13,buts,1,0
+86,13,carte jaune,2,1
+87,13,carte rouge,0,0
+88,13,faute,12,10
+89,13,hors jeu,2,2
+90,13,corner,11,5
+91,13,penaltiy,0,0
+92,14,buts,0,0
+93,14,carte jaune,1,1
+94,14,carte rouge,0,0
+95,14,faute,7,10
+96,14,hors jeu,1,0
+97,14,corner,4,3
+98,14,penaltiy,0,0
+99,15,buts,3,2
+100,15,carte jaune,2,4
+101,15,carte rouge,0,0
+102,15,faute,14,19
+103,15,hors jeu,1,1
+104,15,corner,3,3
+105,15,penaltiy,1,0
+106,16,buts,2,0
+107,16,carte jaune,0,3
+108,16,carte rouge,0,0
+109,16,faute,7,12
+110,16,hors jeu,1,0
+111,16,corner,6,4
+112,16,penaltiy,0,0
+113,17,buts,0,2
+114,17,carte jaune,1,2
+115,17,carte rouge,1,0
+116,17,faute,9,10
+117,17,hors jeu,2,2
+118,17,corner,2,7
+119,17,penaltiy,0,0
+120,18,buts,1,3
+121,18,carte jaune,3,3
+122,18,carte rouge,0,0
+123,18,faute,7,12
+124,18,hors jeu,4,3
+125,18,corner,6,7
+126,18,penaltiy,0,0
+127,19,buts,1,1
+128,19,carte jaune,0,1
+129,19,carte rouge,0,0
+130,19,faute,15,12
+131,19,hors jeu,1,4
+132,19,corner,2,5
+133,19,penaltiy,0,0
+134,20,buts,0,0
+135,20,carte jaune,0,0
+136,20,carte rouge,0,0
+137,20,faute,9,15
+138,20,hors jeu,1,0
+139,20,corner,3,7
+140,20,penaltiy,0,0
+141,21,buts,0,1
+142,21,carte jaune,3,0
+143,21,carte rouge,0,0
+144,21,faute,16,15
+145,21,hors jeu,3,0
+146,21,corner,5,2
+147,21,penaltiy,0,0
+148,22,buts,2,0
+149,22,carte jaune,3,2
+150,22,carte rouge,0,0
+151,22,faute,18,15
+152,22,hors jeu,0,0
+153,22,corner,4,5
+154,22,penaltiy,0,0
+155,23,buts,2,1
+156,23,carte jaune,1,2
+157,23,carte rouge,0,0
+158,23,faute,4,9
+159,23,hors jeu,1,1
+160,23,corner,6,4
+161,23,penaltiy,0,0
+162,24,buts,2,0
+163,24,carte jaune,1,4
+164,24,carte rouge,0,0
+165,24,faute,15,19
+166,24,hors jeu,2,4
+167,24,corner,4,2
+168,24,penaltiy,0,0
+169,25,buts,0,1
+170,25,carte jaune,3,3
+171,25,carte rouge,0,0
+172,25,faute,22,9
+173,25,hors jeu,0,2
+174,25,corner,5,0
+175,25,penaltiy,0,0
+176,26,buts,0,2
+177,26,carte jaune,1,1
+178,26,carte rouge,0,0
+179,26,faute,10,14
+180,26,hors jeu,3,3
+181,26,corner,9,1
+182,26,penaltiy,0,0
+183,27,buts,4,1
+184,27,carte jaune,2,2
+185,27,carte rouge,0,0
+186,27,faute,13,5
+187,27,hors jeu,1,3
+188,27,corner,5,2
+189,27,penaltiy,0,0
+190,28,buts,1,1
+191,28,carte jaune,1,3
+192,28,carte rouge,0,0
+193,28,faute,13,11
+194,28,hors jeu,2,5
+195,28,corner,6,5
+196,28,penaltiy,0,0
+197,29,buts,3,3
+198,29,carte jaune,2,2
+199,29,carte rouge,0,0
+200,29,faute,8,13
+201,29,hors jeu,0,4
+202,29,corner,4,3
+203,29,penaltiy,0,0
+204,30,buts,2,3
+205,30,carte jaune,2,2
+206,30,carte rouge,0,0
+207,30,faute,13,9
+208,30,hors jeu,1,1
+209,30,corner,12,5
+210,30,penaltiy,0,0
+211,31,buts,1,0
+212,31,carte jaune,1,1
+213,31,carte rouge,0,0
+214,31,faute,10,17
+215,31,hors jeu,3,1
+216,31,corner,8,3
+217,31,penaltiy,0,0
+218,32,buts,2,0
+219,32,carte jaune,3,2
+220,32,carte rouge,0,0
+221,32,faute,10,16
+222,32,hors jeu,2,0
+223,32,corner,6,2
+224,32,penaltiy,1,0
+225,33,buts,2,0
+226,33,carte jaune,1,0
+227,33,carte rouge,0,0
+228,33,faute,19,9
+229,33,hors jeu,4,0
+230,33,corner,4,2
+231,33,penaltiy,0,0
+232,34,buts,1,2
+233,34,carte jaune,0,1
+234,34,carte rouge,0,0
+235,34,faute,23,11
+236,34,hors jeu,0,3
+237,34,corner,3,6
+238,34,penaltiy,0,1
+239,35,buts,0,3
+240,35,carte jaune,2,0
+241,35,carte rouge,0,0
+242,35,faute,16,9
+243,35,hors jeu,1,1
+244,35,corner,1,6
+245,35,penaltiy,0,0
+246,36,buts,0,1
+247,36,carte jaune,3,1
+248,36,carte rouge,0,0
+249,36,faute,13,10
+250,36,hors jeu,2,1
+251,36,corner,1,5
+252,36,penaltiy,0,0
+253,37,buts,1,0
+254,37,carte jaune,2,1
+255,37,carte rouge,0,0
+256,37,faute,11,10
+257,37,hors jeu,1,3
+258,37,corner,2,6
+259,37,penaltiy,0,0
+260,38,buts,1,0
+261,38,carte jaune,1,0
+262,38,carte rouge,0,0
+263,38,faute,14,6
+264,38,hors jeu,3,2
+265,38,corner,7,8
+266,38,penaltiy,0,0
+267,39,buts,0,2
+268,39,carte jaune,1,1
+269,39,carte rouge,0,0
+270,39,faute,6,11
+271,39,hors jeu,0,0
+272,39,corner,1,9
+273,39,penaltiy,0,0
+274,40,buts,1,2
+275,40,carte jaune,6,1
+276,40,carte rouge,0,0
+277,40,faute,20,18
+278,40,hors jeu,2,6
+279,40,corner,1,8
+280,40,penaltiy,0,0
+281,41,buts,0,0
+282,41,carte jaune,0,1
+283,41,carte rouge,0,0
+284,41,faute,7,9
+285,41,hors jeu,4,0
+286,41,corner,2,4
+287,41,penaltiy,0,0
+288,42,buts,1,2
+289,42,carte jaune,4,0
+290,42,carte rouge,0,0
+291,42,faute,14,14
+292,42,hors jeu,4,4
+293,42,corner,6,2
+294,42,penaltiy,0,0
+295,43,buts,2,1
+296,43,carte jaune,3,0
+297,43,carte rouge,0,0
+298,43,faute,9,6
+299,43,hors jeu,2,2
+300,43,corner,0,2
+301,43,penaltiy,0,0
+302,44,buts,2,4
+303,44,carte jaune,1,0
+304,44,carte rouge,0,0
+305,44,faute,3,9
+306,44,hors jeu,4,3
+307,44,corner,1,14
+308,44,penaltiy,0,0
+309,45,buts,0,2
+310,45,carte jaune,2,5
+311,45,carte rouge,0,0
+312,45,faute,18,11
+313,45,hors jeu,2,2
+314,45,corner,5,2
+315,45,penaltiy,0,0
+316,46,buts,2,1
+317,46,carte jaune,2,0
+318,46,carte rouge,0,0
+319,46,faute,9,11
+320,46,hors jeu,1,5
+321,46,corner,5,4
+322,46,penaltiy,0,0
+323,47,buts,2,3
+324,47,carte jaune,7,4
+325,47,carte rouge,0,0
+326,47,faute,18,13
+327,47,hors jeu,0,0
+328,47,corner,2,0
+329,47,penaltiy,0,0
+330,48,buts,1,0
+331,48,carte jaune,5,2
+332,48,carte rouge,1,0
+333,48,faute,14,14
+334,48,hors jeu,0,1
+335,48,corner,3,11
+336,48,penaltiy,0,0
+337,49,buts,3,1
+338,49,carte jaune,2,0
+339,49,carte rouge,0,0
+340,49,faute,10,5
+341,49,hors jeu,0,3
+342,49,corner,4,5
+343,49,penaltiy,0,0
+344,50,buts,2,1
+345,50,carte jaune,0,2
+346,50,carte rouge,0,0
+347,50,faute,8,15
+348,50,hors jeu,4,0
+349,50,corner,1,3
+350,50,penaltiy,0,0
+351,51,buts,3,1
+352,51,carte jaune,1,2
+353,51,carte rouge,0,0
+354,51,faute,10,8
+355,51,hors jeu,3,1
+356,51,corner,7,1
+357,51,penaltiy,0,1
+358,52,buts,3,0
+359,52,carte jaune,0,1
+360,52,carte rouge,0,0
+361,52,faute,16,12
+362,52,hors jeu,0,0
+363,52,corner,3,3
+364,52,penaltiy,0,0
+365,53,buts,1,1
+366,53,carte jaune,0,2
+367,53,carte rouge,0,0
+368,53,faute,13,16
+369,53,hors jeu,3,0
+370,53,corner,8,5
+371,53,penaltiy,0,0
+372,54,buts,4,1
+373,54,carte jaune,0,1
+374,54,carte rouge,0,0
+375,54,faute,8,13
+376,54,hors jeu,0,5
+377,54,corner,5,4
+378,54,penaltiy,1,0
+379,55,buts,0,0
+380,55,carte jaune,1,1
+381,55,carte rouge,0,0
+382,55,faute,15,14
+383,55,hors jeu,5,4
+384,55,corner,0,8
+385,55,penaltiy,0,0
+386,56,buts,6,1
+387,56,carte jaune,0,2
+388,56,carte rouge,0,0
+389,56,faute,12,10
+390,56,hors jeu,3,3
+391,56,corner,6,6
+392,56,penaltiy,0,0
+393,57,buts,1,1
+394,57,carte jaune,2,3
+395,57,carte rouge,0,0
+396,57,faute,22,24
+397,57,hors jeu,3,3
+398,57,corner,3,7
+399,57,penaltiy,0,0
+400,58,buts,2,2
+401,58,carte jaune,8,8
+402,58,carte rouge,1,0
+403,58,faute,30,18
+404,58,hors jeu,1,2
+405,58,corner,2,8
+406,58,penaltiy,0,1
+407,59,buts,1,0
+408,59,carte jaune,3,1
+409,59,carte rouge,1,0
+410,59,faute,15,9
+411,59,hors jeu,2,2
+412,59,corner,3,9
+413,59,penaltiy,0,0
+414,60,buts,1,2
+415,60,carte jaune,1,3
+416,60,carte rouge,0,0
+417,60,faute,10,14
+418,60,hors jeu,1,2
+419,60,corner,5,2
+420,60,penaltiy,1,0
+421,61,buts,3,0
+422,61,carte jaune,2,2
+423,61,carte rouge,0,0
+424,61,faute,15,8
+425,61,hors jeu,1,0
+426,61,corner,2,4
+427,61,penaltiy,1,0
+428,62,buts,2,0
+429,62,carte jaune,0,1
+430,62,carte rouge,0,0
+431,62,faute,11,11
+432,62,hors jeu,4,3
+433,62,corner,2,3
+434,62,penaltiy,0,0
+435,63,buts,2,1
+436,63,carte jaune,0,2
+437,63,carte rouge,0,0
+438,63,faute,13,11
+439,63,hors jeu,2,2
+440,63,corner,6,3
+441,63,penaltiy,0,0
+442,64,buts,3,3
+443,64,carte jaune,4,3
+444,64,carte rouge,0,0
+445,64,faute,26,19
+446,64,hors jeu,4,4
+447,64,corner,6,5
+448,64,penaltiy,1,2
