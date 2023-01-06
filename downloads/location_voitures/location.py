@@ -37,6 +37,9 @@ for i in range(df.matricule.count()):
 VALUES (:matricule, :vehicule, :prix_unit, :CIN, :client, :tel, :date_location, :date_retour, :jours, :prix_a_payer)"""
     data = dict(row)
     data = {col: tp(row[col]) for col, tp in zip(cols, types)}
+    data['date_location'] = data['date_location'][:10]
+    data['date_retour'] = data['date_retour'][:10]
+    data['CIN'] = ('0'*8 + data['CIN'])[-8:]
     print(data)
     conn.execute(sql, data)
 
