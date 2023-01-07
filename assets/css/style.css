@@ -19,7 +19,7 @@ figure figcaption {
 }
 
 figure figcaption::before {
-  content: 'Figure 'counter(figures) ', ';
+  content: 'Figure ' counter(figures) ', ';
 }
 
 figure img {
@@ -83,48 +83,98 @@ table.n12-col-eq th {
   vertical-align: middle;
 }
 
-table.n2-col-eq th, table.n2-col-eq td {
+table.n2-col-eq th,
+table.n2-col-eq td {
   width: calc(100% / 2);
 }
 
-table.n3-col-eq th, table.n3-col-eq td {
+table.n3-col-eq th,
+table.n3-col-eq td {
   width: calc(100% / 3);
 }
 
-table.n4-col-eq th, table.n4-col-eq td {
+table.n4-col-eq th,
+table.n4-col-eq td {
   width: calc(100% / 4);
 }
 
-table.n5-col-eq th, table.n5-col-eq td {
+table.n5-col-eq th,
+table.n5-col-eq td {
   width: calc(100% / 5);
 }
 
-table.n6-col-eq th, table.n6-col-eq td {
+table.n6-col-eq th,
+table.n6-col-eq td {
   width: calc(100% / 6);
 }
 
-table.n7-col-eq th, table.n7-col-eq td {
+table.n7-col-eq th,
+table.n7-col-eq td {
   width: calc(100% / 7);
 }
 
-table.n8-col-eq th, table.n8-col-eq td {
+table.n8-col-eq th,
+table.n8-col-eq td {
   width: calc(100% / 8);
 }
 
-table.n9-col-eq th, table.n9-col-eq td {
+table.n9-col-eq th,
+table.n9-col-eq td {
   width: calc(100% / 9);
 }
 
-table.n10-col-eq th, table.n10-col-eq td {
+table.n10-col-eq th,
+table.n10-col-eq td {
   width: calc(100% / 10);
 }
 
-table.n11-col-eq th, table.n11-col-eq td {
+table.n11-col-eq th,
+table.n11-col-eq td {
   width: calc(100% / 11);
 }
 
-table.n12-col-eq th, table.n12-col-eq td {
+table.n12-col-eq th,
+table.n12-col-eq td {
   width: calc(100% / 12);
+}
+
+.dict-table {
+  font-size: 0.9em;
+  min-width: 800px;
+  margin: auto;
+}
+
+.dict-table th {
+  text-align: center;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+.dict-table th,
+.dict-table td {
+  vertical-align: middle;
+}
+
+.dict-table th:nth-of-type(1) {
+  width: 20%;
+}
+
+.dict-table th:nth-of-type(2) {
+  width: 33.3%;
+}
+
+.dict-table th:nth-of-type(4),
+.dict-table th:nth-of-type(5),
+.dict-table th:nth-of-type(6),
+.dict-table th:nth-of-type(7),
+.dict-table td:nth-of-type(4),
+.dict-table td:nth-of-type(5),
+.dict-table td:nth-of-type(6),
+.dict-table td:nth-of-type(7) {
+  text-align: center;
+  width: 6.66%;
+  max-width: 6.66%;
 }
 
 @media print {
