@@ -10,7 +10,7 @@ USE location_vehicules;
 CREATE TABLE vehicules (
     matricule VARCHAR(10) PRIMARY KEY NOT NULL,
     vehicule VARCHAR(32) NOT NULL,
-    prix_unit DOUBLE NOT NULL DEFAULT 0,
+    prix_unit DOUBLE NOT NULL DEFAULT 0.0,
     libre CHAR(1) DEFAULT 'O' 
                   CHECK (libre = 'O' OR libre = 'N')
 );

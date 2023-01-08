@@ -156,22 +156,14 @@ table.n12-col-eq td {
   vertical-align: middle;
 }
 
-.dict-table th:nth-of-type(1) {
-  width: 20%;
-}
-
 .dict-table th:nth-of-type(2) {
   width: 33.3%;
 }
 
 .dict-table th:nth-of-type(4),
 .dict-table th:nth-of-type(5),
-.dict-table th:nth-of-type(6),
-.dict-table th:nth-of-type(7),
 .dict-table td:nth-of-type(4),
-.dict-table td:nth-of-type(5),
-.dict-table td:nth-of-type(6),
-.dict-table td:nth-of-type(7) {
+.dict-table td:nth-of-type(5) {
   text-align: center;
   width: 6.66%;
   max-width: 6.66%;
