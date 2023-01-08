@@ -302,7 +302,7 @@ Database changed</code></pre>
             </div>
           </li>
           <li>Remplir la table <code>clients</code> par les données suivantes :
-            <pre style="font-size: 0.71em;"><code class="nohighlight">+----------+--------+-------+----------+
+            <pre style="font-size: 0.8em;"><code class="nohighlight">+----------+--------+-------+----------+
 | cin      | client | genre | tel      |
 +----------+--------+-------+----------+
 | 02500463 | Hajer  | F     | 36079515 |
@@ -317,7 +317,7 @@ Records: 3  Duplicates: 0  Warnings: 0</code></pre>
             </div>
           </li>
           <li>Remplir la table <code>vehicules</code> par les données suivantes :
-            <pre style="font-size: 0.71em;"><code class="nohighlight">+-----------+------------------+-----------+-------+
+            <pre style="font-size: 0.8em;"><code class="nohighlight">+-----------+------------------+-----------+-------+
 | matricule | vehicule         | prix_unit | libre |
 +-----------+------------------+-----------+-------+
 | 200TU4906 | Clio 4           |        60 | O     |
@@ -339,7 +339,7 @@ Records: 10  Duplicates: 0  Warnings: 0</code></pre>
             </div>
           </li>
           <li>Remplir la table <code>locations</code> par les données suivantes :
-            <pre style="font-size: 0.71em;"><code class="nohighlight">+--------------+-----------+----------+---------------+-------------+------------------+
+            <pre style="font-size: 0.8em;"><code class="nohighlight">+--------------+-----------+----------+---------------+-------------+------------------+
 | num_location | matricule | cin      | date_location | date_retour | montant_location |
 +--------------+-----------+----------+---------------+-------------+------------------+
 |            1 | 203TU4480 | 03972583 | 2022-01-02    | 2022-01-03  |               80 |
@@ -364,6 +364,150 @@ VALUES ('203TU4480', '03972583', '2022-01-02', '2022-01-03', 80);</code></pre>
             <div class="d-print-none">
               <pre><code class="nohighlight">Query OK, 14 rows affected (0.031 sec)
 Records: 14  Duplicates: 0  Warnings: 0</code></pre>
+            </div>
+          </li>
+          <li>Ajouter le nouveau client &laquo; Youssef &raquo; son <strong>cin</strong> est &laquo; 12569800 &raquo; et
+            son <b>téléphone</b> est &laquo; 52349157 &raquo;.
+            <pre><code class="sql">INSERT INTO clients (cin, client, genre, tel)
+VALUES ('12569800', 'Youssef', 'M', 52349157);</code></pre>
+            <div class="d-print-none">
+              <pre><code class="nohighlight">Query OK, 1 row affected (0.252 sec)</code></pre>
+            </div>
+          </li>
+          <li>Le gérant a voulu insérer l'enregistrement suivant d'une nouvelle cliente
+            <code>(client: 'Assia', cin: '12650890', tel: '52349157')</code> en utilisant la commande suivante :
+            <pre><code class="sql">INSERT INTO clients (client, cin)
+VALUES ('Assia', '12650890');</code></pre>
+            <p class="p-break">Mais il obtient l'erreur suivante :</p>
+            <pre><code class="nohighlight">ERROR 1364 (HY000): Field 'tel' doesn't have a default value</code></pre>
+            <p><strong>Quel est le problème ? Comment le corriger ?</strong></p>
+            <div class="d-none d-print-block">
+              <p>Le champ <code>tel</code> est obligatoire le gérant doit l'indiquer pour corriger le problème.</p>
+            </div>
+          </li>
+          <li>Le gérant a corrigé sa commande en tapant :
+            <pre><code class="sql">INSERT INTO clients (client, cin, tel)
+VALUES ('Assia', '12650890', '52349157');</code></pre>
+            <div class="d-print-none">
+              <pre><code class="nohighlight">Query OK, 1 row affected (0.010 sec)</code></pre>
+            </div>
+            <p>Puis, pour vérifier qu'elle a été insérée :</p>
+            <pre><code class="sql">SELECT * FROM clients WHERE cin = '12650890';</code></pre>
+            <pre><code class="nohighlight">+----------+--------+-------+----------+
+| cin      | client | genre | tel      |
++----------+--------+-------+----------+
+| 12650890 | Assia  | <mark>M</mark>     | 52349157 |
++----------+--------+-------+----------+
+1 row in set (0.001 sec)</code></pre>
+            <p><strong>Pourquoi le genre de &laquo; Assia &raquo; est-il incorrect ? Comment le corriger ?</strong></p>
+            <div class="d-none d-print-block">
+              <p>Comme la requête n'indique pas le <code>genre</code> de &laquo; Assia &raquo; le SGBD insère la valeur
+                par défaut <code>M</code>.</p>
+              <p>Pour corriger ce problème il faut mettre à jour ce champ à l'aide de la commande :</p>
+              <pre><code class="sql">UPDATE clients SET genre = 'F' WHERE cin = '12650890';</code></pre>
+              <div class="d-print-none">
+                <pre><code class="nohighlight">Query OK, 1 row affected (0.042 sec)
+Rows matched: 1  Changed: 1  Warnings: 0</code></pre>
+              </div>
+            </div>
+          </li>
+          <li>Afficher la liste des clientes de cette agence par ordre croissant de leurs noms.
+            <pre><code class="sql">SELECT * FROM clients WHERE genre = 'F' ORDER BY client;</code></pre>
+            <div class="d-print-none">
+              <pre><code class="nohighlight">+----------+--------+-------+----------+
+| cin      | client | genre | tel      |
++----------+--------+-------+----------+
+| 12650890 | Assia  | F     | 52349157 |
+| 02500463 | Hajer  | F     | 36079515 |
++----------+--------+-------+----------+
+2 rows in set (0.001 sec)</code></pre>
+            </div>
+          </li>
+          <li>Afficher la liste des clients qui disposent d'un numéro de téléphone Orange (commençant par 5) ou Tunisie
+            Telecom (commençant par 7 ou 9).
+            <pre><code class="sql">SELECT * FROM clients WHERE LEFT(tel, 1) IN ('5', '7', '9');</code></pre>
+            <div class="d-print-none">
+              <pre><code class="nohighlight">+----------+---------+-------+----------+
+| cin      | client  | genre | tel      |
++----------+---------+-------+----------+
+| 04202363 | Aziz    | M     | 70116709 |
+| 12569800 | Youssef | M     | 52349157 |
+| 12650890 | Assia   | F     | 52349157 |
++----------+---------+-------+----------+
+3 rows in set (0.000 sec)</code></pre>
+            </div>
+          </li>
+          <li>Le client &laquo; Aziz &raquo; vient de changer son numéro de téléphone à 25025637. Mettre à jour les
+            informations de &laquo; Aziz &raquo;.
+            <pre><code class="sql">UPDATE clients SET tel = '25025637' WHERE cin = '04202363';</code></pre>
+            <div class="d-print-none">
+              <pre><code class="nohighlight">Query OK, 1 row affected (0.023 sec)
+Rows matched: 1  Changed: 1  Warnings: 0</code></pre>
+            </div>
+          </li>
+          <li>Afficher la liste des véhicules 'Clio 5' libres
+            <pre><code class="sql">SELECT * FROM vehicules WHERE vehicule = 'Clio 5' AND libre = 'O';</code></pre>
+            <div class="d-print-none">
+              <pre><code class="nohighlight">+-----------+----------+-----------+-------+
+| matricule | vehicule | prix_unit | libre |
++-----------+----------+-----------+-------+
+| 207TU8780 | Clio 5   |        70 | O     |
++-----------+----------+-----------+-------+
+1 row in set (0.001 sec)</code></pre>
+            </div>
+          </li>
+          <li>Ce véhicule a été loué à &laquo; Youssef &raquo; pendant 5 jours du 01/02/2022 au 06/02/2022.
+            <p><strong>Insérer cette location, et mettre à jour la liste des véhicules.</strong> <strong>Vérifier le bon
+                déroulement de l'opération.</strong></p>
+            <pre><code class="sql">-- Insérer cette location, 
+INSERT INTO locations (matricule, cin, date_location, date_retour, montant_location)
+VALUES ('207TU8780', '12569800', '2022-02-01', '2022-02-06', 5 * 70.0);
+
+-- et mettre à jour la liste des véhicules.
+UPDATE vehicules SET libre = 'N' WHERE matricule = '207TU8780';
+
+-- Vérifier le bon déroulement de l'opération
+SELECT * FROM vehicules WHERE matricule = '207TU8780';
+SELECT * FROM locations WHERE matricule = '207TU8780';</code></pre>
+            <div class="d-print-none">
+              <pre><code class="nohighlight">+-----------+----------+-----------+-------+
+| matricule | vehicule | prix_unit | libre |
++-----------+----------+-----------+-------+
+| 207TU8780 | Clio 5   |        70 | N     |
++-----------+----------+-----------+-------+
+1 row in set (0.000 sec)
+
++--------------+-----------+----------+---------------+-------------+------------------+
+| num_location | matricule | cin      | date_location | date_retour | montant_location |
++--------------+-----------+----------+---------------+-------------+------------------+
+|           15 | 207TU8780 | 12569800 | 2022-02-01    | 2022-02-06  |              350 |
++--------------+-----------+----------+---------------+-------------+------------------+
+1 row in set (0.000 sec)</code></pre>
+            </div>
+          </li>
+          <li>Oubliant que le véhicule &laquo; Seat IBIZA &raquo; ayant comme matricule &laquo; 204TU9333 &raquo; n'est
+            pas libre. Le gérant l'a loué à &laquo; Assia &raquo;. Il a tapé la commande suivante :
+            <pre><code class="sql">INSERT INTO locations (matricule, cin, date_location, date_retour, montant_location)
+              VALUES ('204TU9333', '12650890', '2022-02-01', '2022-02-03', 2 * 60.0);</code></pre>
+            <p>Maintenant, il veut annuler cette location en supprimant cet enregistrement. <strong>Comment vas-t-il
+                procéder ?</strong></p>
+            <div class="d-none d-print-block">
+              <p>Il doit trouver le dernier <code>num_location</code> inséré dans la table <code>locations</code> à
+                l'aide de la commande : </p>
+              <pre><code class="sql">SELECT MAX(num_location) FROM locations;</code></pre>
+              <div class="d-print-none">
+                <pre><code class="nohighlight">+-------------------+
+| MAX(num_location) |
++-------------------+
+|                16 |
++-------------------+
+1 row in set (0.001 sec)</code></pre>
+              </div>
+              <p>Puis, supprimer l'enregistrement incorrect à l'aide de la commande :</p>
+              <pre><code class="sql">DELETE FROM locations WHERE num_location = 16;</code></pre>
+              <div class="d-print-none">
+                <pre><code class="nohighlight">Query OK, 1 row affected (0.017 sec)</code></pre>
+              </div>
             </div>
           </li>
           <!--

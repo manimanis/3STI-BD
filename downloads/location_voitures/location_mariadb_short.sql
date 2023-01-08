@@ -60,6 +60,7 @@ VALUES ('03972583', 'Amir', 'M', '36704253'),
     ('04202363', 'Aziz', 'M', '70116709'),
     ('02500463', 'Hajer', 'F', '36079515');
 
+-- Remplir la table locations
 INSERT INTO locations (matricule, cin, date_location, date_retour, montant_location)
 VALUES ('203TU4480', '03972583', '2022-01-02', '2022-01-03', 80),
     ('206TU5473', '04202363', '2022-01-02', '2022-01-03', 80),
@@ -75,3 +76,51 @@ VALUES ('203TU4480', '03972583', '2022-01-02', '2022-01-03', 80),
     ('207TU4480', '04202363', '2022-01-24', '2022-01-25', 80),
     ('205TU9334', '04202363', '2022-01-28', '2022-02-03', 420),
     ('204TU9333', '03972583', '2022-01-28', '2022-02-01', 240);
+
+-- Ajouter le nouoveau client Youssef, son cin est 12569800 et son téléphone est 52349157
+INSERT INTO clients (cin, client, genre, tel)
+VALUES ('12569800', 'Youssef', 'M', 52349157);
+
+-- Insertion de Assia
+INSERT INTO clients (client, cin, tel)
+VALUES ('Assia', '12650890', '52349157');
+
+-- Vérifier que Assia a été insérée
+SELECT * FROM clients WHERE cin = '12650890';
+
+-- Mettre à jour le genre de Assia
+UPDATE clients
+SET genre = 'F'
+WHERE cin = '12650890';
+
+-- Afficher la liste des clientes par ordre croissant de leurs noms
+SELECT * FROM clients WHERE genre = 'F' ORDER BY client;
+
+-- Afficher la liste des clients qui disposent d'un numéro de téléphone Orange (commençant par 5) ou Tunisie Telecom (commençant par 7 ou 9).
+SELECT * FROM clients WHERE LEFT(tel, 1) IN ('5', '7', '9');
+
+-- Mettre à jour le numéro de téléphone de Aziz
+UPDATE clients SET tel = '25025637' WHERE cin = '04202363';
+
+-- Afficher la liste des véhicules 'Clio 5' libres
+SELECT * FROM vehicules WHERE vehicule = 'Clio 5' AND libre = 'O';
+
+-- Ce véhicule a été loué à « Youssef » pendant 5 jours du 01/02/2022 au 06/02/2022.
+-- Insérer cette location, 
+INSERT INTO locations (matricule, cin, date_location, date_retour, montant_location)
+VALUES ('207TU8780', '12569800', '2022-02-01', '2022-02-06', 5 * 70.0);
+-- et mettre à jour la liste des véhicules.
+UPDATE vehicules SET libre = 'N' WHERE matricule = '207TU8780';
+-- Vérifier le bon déroulement de l'opération
+SELECT * FROM vehicules WHERE matricule = '207TU8780';
+SELECT * FROM locations WHERE matricule = '207TU8780';
+
+-- Louer un véhicule non libre à Assia
+INSERT INTO locations (matricule, cin, date_location, date_retour, montant_location)
+VALUES ('204TU9333', '12650890', '2022-02-01', '2022-02-03', 2 * 60.0);
+
+-- Dernier num_location
+SELECT MAX(num_location) FROM locations;
+
+-- Supprimer l'enregistrement incorrect
+DELETE FROM locations WHERE num_location = 16;
