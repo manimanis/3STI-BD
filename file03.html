@@ -94,13 +94,11 @@
         <h3>Enoncé</h3>
         <ol>
           <li>Créer une nouvelle base de données appelée <code>location_vehicules</code>. Puis, l'utiliser.
-            <pre><code class="sql">-- Création de la base de données
+            <div class="d-none d-print-block">
+              <pre><code class="sql">-- Création de la base de données
 CREATE DATABASE location_vehicules;
 -- Utiliser la base de données locatiion_vehicules
 USE location_vehicules;</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 1 row affected (0.028 sec)
-Database changed</code></pre>
             </div>
           </li>
           <li>Le gérant de l'agence de location de voitures a besoin des informations suivantes :
@@ -256,32 +254,31 @@ Database changed</code></pre>
           </li>
           <li>Créer la table <code>vehicules</code>.
             <p>Les enregistrement de la table sont identifiés par la colonne <code>matricule</code>.</p>
-            <pre><code class="sql">CREATE TABLE vehicules (
+            <div class="d-none d-print-block">
+              <pre><code class="sql">CREATE TABLE vehicules (
     matricule VARCHAR(10) PRIMARY KEY NOT NULL,
     vehicule VARCHAR(32) NOT NULL,
     prix_unit DOUBLE NOT NULL DEFAULT 0.0,
     libre CHAR(1) DEFAULT 'O' 
                   CHECK (libre = 'O' OR libre = 'N')
 );</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 0 rows affected (0.225 sec)</code></pre>
             </div>
           </li>
           <li>Créer la table <code>clients</code>.
             <p>La table <code>clients</code> est identifiée par la colonne <code>cin</code>.</p>
-            <pre><code class="sql">CREATE TABLE clients (
+            <div class="d-none d-print-block">
+              <pre><code class="sql">CREATE TABLE clients (
     cin VARCHAR(10) PRIMARY KEY,
     client VARCHAR(32) NOT NULL,
     genre CHAR(1) NOT NULL DEFAULT 'M' CHECK(genre IN ('M', 'F')),
     tel VARCHAR(16) NOT NULL
 );</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 0 rows affected (0.203 sec)</code></pre>
             </div>
           </li>
           <li>Créer la table <code>locations</code>.
             <p>La table est identifiée par le champ <code>num_location</code>.</p>
-            <pre><code class="sql">CREATE TABLE locations (
+            <div class="d-none d-print-block">
+              <pre><code class="sql">CREATE TABLE locations (
     num_location INT PRIMARY KEY AUTO_INCREMENT,
     matricule VARCHAR(10) NOT NULL,
     cin VARCHAR(10) NOT NULL,
@@ -297,8 +294,6 @@ Database changed</code></pre>
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 0 rows affected (0.252 sec)</code></pre>
             </div>
           </li>
           <li>Remplir la table <code>clients</code> par les données suivantes :
@@ -309,11 +304,9 @@ Database changed</code></pre>
 | 03972583 | Amir   | M     | 36704253 |
 | 04202363 | Aziz   | M     | 70116709 |
 +----------+--------+-------+----------+</code></pre>
-            <pre><code class="sql">INSERT INTO clients (cin, client, genre, tel)
+            <div class="d-none d-print-block">
+              <pre><code class="sql">INSERT INTO clients (cin, client, genre, tel)
 VALUES ('03972583', 'Amir', 'M', '36704253');</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 3 rows affected (0.027 sec)
-Records: 3  Duplicates: 0  Warnings: 0</code></pre>
             </div>
           </li>
           <li>Remplir la table <code>vehicules</code> par les données suivantes :
@@ -331,11 +324,9 @@ Records: 3  Duplicates: 0  Warnings: 0</code></pre>
 | 207TU4480 | Suzuki Swift-BVA |        80 | O     |
 | 207TU8780 | Clio 5           |        70 | O     |
 +-----------+------------------+-----------+-------+ </code></pre>
-            <pre><code class="sql">INSERT INTO vehicules (matricule, vehicule, prix_unit, libre)
+            <div class="d-none d-print-block">
+              <pre><code class="sql">INSERT INTO vehicules (matricule, vehicule, prix_unit, libre)
 VALUES ('200TU4906', 'Clio 4', 60, 'O');</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 10 rows affected (0.037 sec)
-Records: 10  Duplicates: 0  Warnings: 0</code></pre>
             </div>
           </li>
           <li>Remplir la table <code>locations</code> par les données suivantes :
@@ -359,19 +350,16 @@ Records: 10  Duplicates: 0  Warnings: 0</code></pre>
 +--------------+-----------+----------+---------------+-------------+------------------+</code></pre>
             <p>On remarque qu'au lieu de saisir les informations des clients et des véhicules à chaque fois il nous
               suffit juste d'insérer le <code>cin</code> du client et le <code>matricule</code> du véhicule loué.</p>
-            <pre><code class="sql">INSERT INTO locations (matricule, cin, date_location, date_retour, montant_location)
+            <div class="d-none d-print-block">
+              <pre><code class="sql">INSERT INTO locations (matricule, cin, date_location, date_retour, montant_location)
 VALUES ('203TU4480', '03972583', '2022-01-02', '2022-01-03', 80);</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 14 rows affected (0.031 sec)
-Records: 14  Duplicates: 0  Warnings: 0</code></pre>
             </div>
           </li>
           <li>Ajouter le nouveau client &laquo; Youssef &raquo; son <strong>cin</strong> est &laquo; 12569800 &raquo; et
             son <b>téléphone</b> est &laquo; 52349157 &raquo;.
-            <pre><code class="sql">INSERT INTO clients (cin, client, genre, tel)
+            <div class="d-none d-print-block">
+              <pre><code class="sql">INSERT INTO clients (cin, client, genre, tel)
 VALUES ('12569800', 'Youssef', 'M', 52349157);</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 1 row affected (0.252 sec)</code></pre>
             </div>
           </li>
           <li>Le gérant a voulu insérer l'enregistrement suivant d'une nouvelle cliente
@@ -412,7 +400,9 @@ Rows matched: 1  Changed: 1  Warnings: 0</code></pre>
             </div>
           </li>
           <li>Afficher la liste des clientes de cette agence par ordre croissant de leurs noms.
-            <pre><code class="sql">SELECT * FROM clients WHERE genre = 'F' ORDER BY client;</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT * FROM clients WHERE genre = 'F' ORDER BY client;</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+----------+--------+-------+----------+
 | cin      | client | genre | tel      |
@@ -425,7 +415,9 @@ Rows matched: 1  Changed: 1  Warnings: 0</code></pre>
           </li>
           <li>Afficher la liste des clients qui disposent d'un numéro de téléphone Orange (commençant par 5) ou Tunisie
             Telecom (commençant par 7 ou 9).
-            <pre><code class="sql">SELECT * FROM clients WHERE LEFT(tel, 1) IN ('5', '7', '9');</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT * FROM clients WHERE LEFT(tel, 1) IN ('5', '7', '9');</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+----------+---------+-------+----------+
 | cin      | client  | genre | tel      |
@@ -439,14 +431,14 @@ Rows matched: 1  Changed: 1  Warnings: 0</code></pre>
           </li>
           <li>Le client &laquo; Aziz &raquo; vient de changer son numéro de téléphone à 25025637. Mettre à jour les
             informations de &laquo; Aziz &raquo;.
-            <pre><code class="sql">UPDATE clients SET tel = '25025637' WHERE cin = '04202363';</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 1 row affected (0.023 sec)
-Rows matched: 1  Changed: 1  Warnings: 0</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">UPDATE clients SET tel = '25025637' WHERE cin = '04202363';</code></pre>
             </div>
           </li>
-          <li>Afficher la liste des véhicules 'Clio 5' libres
-            <pre><code class="sql">SELECT * FROM vehicules WHERE vehicule = 'Clio 5' AND libre = 'O';</code></pre>
+          <li>Afficher la liste des véhicules 'Clio 5' libres.
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT * FROM vehicules WHERE vehicule = 'Clio 5' AND libre = 'O';</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------+----------+-----------+-------+
 | matricule | vehicule | prix_unit | libre |
@@ -459,7 +451,8 @@ Rows matched: 1  Changed: 1  Warnings: 0</code></pre>
           <li>Ce véhicule a été loué à &laquo; Youssef &raquo; pendant 5 jours du 01/02/2022 au 06/02/2022.
             <p><strong>Insérer cette location, et mettre à jour la liste des véhicules.</strong> <strong>Vérifier le bon
                 déroulement de l'opération.</strong></p>
-            <pre><code class="sql">-- Insérer cette location, 
+            <div class="d-none d-print-block">
+              <pre><code class="sql">-- Insérer cette location, 
 INSERT INTO locations (matricule, cin, date_location, date_retour, montant_location)
 VALUES ('207TU8780', '12569800', '2022-02-01', '2022-02-06', 5 * 70.0);
 
@@ -469,6 +462,7 @@ UPDATE vehicules SET libre = 'N' WHERE matricule = '207TU8780';
 -- Vérifier le bon déroulement de l'opération
 SELECT * FROM vehicules WHERE matricule = '207TU8780';
 SELECT * FROM locations WHERE matricule = '207TU8780';</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------+----------+-----------+-------+
 | matricule | vehicule | prix_unit | libre |

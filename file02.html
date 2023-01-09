@@ -76,7 +76,9 @@
 -->
         <ol>
           <li>Afficher la liste des bases de données disponibles.
-            <pre><code class="sql">SHOW DATABASES;</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SHOW DATABASES;</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+--------------------+
 | Database           |
@@ -90,19 +92,20 @@
             </div>
           </li>
           <li>Créer la base de données <code>location_voitures</code>
-            <pre><code class="sql">CREATE DATABASE location_voitures;</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 1 row affected (0.018 sec)</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">CREATE DATABASE location_voitures;</code></pre>
             </div>
           </li>
           <li>Vérifier que la base de données <code>location_voitures</code> a été créée.
-            <pre><code class="sql">SHOW DATABASES;</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SHOW DATABASES;</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+--------------------+
 | Database           |
 +--------------------+
 | information_schema |
-| location_voitures  |
+| <mark style="background-color:burlywood;">location_voitures</mark>  |
 | mysql              |
 | performance_schema |
 | sys                |
@@ -111,9 +114,8 @@
             </div>
           </li>
           <li>Utiliser la base de données <code>location_voitures</code> comme base de données par défaut.
-            <pre><code class="sql">USE location_voitures;</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Database changed</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">USE location_voitures;</code></pre>
             </div>
           </li>
           <li>Créer la table <code>locations</code>. La table possède les champs suivants :
@@ -213,7 +215,8 @@
                 </tr>
               </tbody>
             </table>
-            <pre><code class="sql">CREATE TABLE locations (
+            <div class="d-none d-print-block">
+              <pre><code class="sql">CREATE TABLE locations (
     matricule VARCHAR(10),
     vehicule VARCHAR(32),
     prix_unit DOUBLE CHECK(prix_unit >= 0),
@@ -224,17 +227,17 @@
     jours INT CHECK(jours > 0),
     prix_a_payer DOUBLE CHECK(prix_a_payer >= 0)
 );</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 0 rows affected (0.283 sec)</code></pre>
             </div>
           </li>
           <li>Vérifier que la table <code>locations</code> est créée.
-            <pre><code class="sql">SHOW TABLES;</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SHOW TABLES;</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------------------------+
 | Tables_in_location_voitures |
 +-----------------------------+
-| locations                   |
+| <mark style="background-color: burlywood;">locations</mark>                   |
 +-----------------------------+
 1 row in set (0.000 sec)</code></pre>
             </div>
@@ -254,12 +257,12 @@
 | 207TU4480 | Suzuki Swift-BVA |        80 | Mohamed  | 25848116 | 2022-02-04    | 2022-02-05  |     1 |           80 |
 | 207TU8780 | Clio 5           |        70 | Mouhamed | 97793055 | 2022-02-26    | 2022-02-27  |     1 |           70 |
 +-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+</code></pre>
-            <pre><code class="sql">INSERT INTO locations (matricule, vehicule, prix_unit, client, tel, 
+
+            <div class="d-none d-print-block">
+              <pre><code class="sql">INSERT INTO locations (matricule, vehicule, prix_unit, client, tel, 
     date_location, date_retour, jours, prix_a_payer)
 VALUES ('205TU6551', 'Seat IBIZA', 60.0, 'Mahmoud', '56504673', 
     '2022-01-03', '2022-01-05', 2, 120.0);</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Query OK, 1 row affected (0.011 sec)</code></pre>
             </div>
           </li>
           <li class="d-none">Insérer les autres données dans la table <code>locations</code>.
@@ -298,7 +301,9 @@ VALUES ('207TU8780', 'Clio 5', 70.0, 'Mouhamed', '97793055',
 </code></pre>
           </li>
           <li>Afficher tous les enregistrements de la table <code>locations</code>.
-            <pre><code class="sql">SELECT * FROM locations;</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT * FROM locations;</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
 | matricule | vehicule         | prix_unit | client   | tel      | date_location | date_retour | jours | prix_a_payer |
@@ -317,64 +322,72 @@ VALUES ('207TU8780', 'Clio 5', 70.0, 'Mouhamed', '97793055',
             </div>
           </li>
           <li>Afficher les locations par ordre décroissant du nombre de jours de location.
-            <pre><code class="sql">SELECT * FROM locations ORDER BY jours DESC;</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT * FROM locations ORDER BY jours DESC;</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
 | matricule | vehicule         | prix_unit | client   | tel      | date_location | date_retour | jours | prix_a_payer |
 +-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
-| 205TU6551 | Seat IBIZA       |        60 | Mouna    | 36774811 | 2022-01-25    | 2022-02-04  |    10 |          600 |
-| 200TU4906 | Clio 4           |        60 | Monia    | 48880781 | 2022-01-05    | 2022-01-14  |     9 |          540 |
-| 204TU9333 | Seat IBIZA       |        60 | Mohammed | 56542559 | 2022-01-21    | 2022-01-30  |     9 |          540 |
-| 205TU6551 | Seat IBIZA       |        60 | Mahmoud  | 56504673 | 2022-01-03    | 2022-01-05  |     2 |          120 |
-| 207TU4480 | Suzuki Swift-BVA |        80 | Meriem   | 31827055 | 2022-01-05    | 2022-01-07  |     2 |          160 |
-| 205TU9334 | Clio 5           |        70 | Meriem   | 31827055 | 2022-01-27    | 2022-02-01  |     2 |          120 |
-| 204TU9333 | Seat IBIZA       |        60 | Mariem   | 59380983 | 2022-01-30    | 2022-02-01  |     2 |          120 |
-| 207TU4480 | Suzuki Swift-BVA |        80 | Mohamed  | 25848116 | 2022-02-04    | 2022-02-05  |     1 |           80 |
-| 207TU8780 | Clio 5           |        70 | Mouhamed | 97793055 | 2022-02-26    | 2022-02-27  |     1 |           70 |
+| 205TU6551 | Seat IBIZA       |        60 | Mouna    | 36774811 | 2022-01-25    | 2022-02-04  |    <mark style="background-color: burlywood;">10</mark> |          600 |
+| 200TU4906 | Clio 4           |        60 | Monia    | 48880781 | 2022-01-05    | 2022-01-14  |     <mark style="background-color: burlywood;">9</mark> |          540 |
+| 204TU9333 | Seat IBIZA       |        60 | Mohammed | 56542559 | 2022-01-21    | 2022-01-30  |     <mark style="background-color: burlywood;">9</mark> |          540 |
+| 205TU6551 | Seat IBIZA       |        60 | Mahmoud  | 56504673 | 2022-01-03    | 2022-01-05  |     <mark style="background-color: burlywood;">2</mark> |          120 |
+| 207TU4480 | Suzuki Swift-BVA |        80 | Meriem   | 31827055 | 2022-01-05    | 2022-01-07  |     <mark style="background-color: burlywood;">2</mark> |          160 |
+| 205TU9334 | Clio 5           |        70 | Meriem   | 31827055 | 2022-01-27    | 2022-02-01  |     <mark style="background-color: burlywood;">2</mark> |          120 |
+| 204TU9333 | Seat IBIZA       |        60 | Mariem   | 59380983 | 2022-01-30    | 2022-02-01  |     <mark style="background-color: burlywood;">2</mark> |          120 |
+| 207TU4480 | Suzuki Swift-BVA |        80 | Mohamed  | 25848116 | 2022-02-04    | 2022-02-05  |     <mark style="background-color: burlywood;">1</mark> |           80 |
+| 207TU8780 | Clio 5           |        70 | Mouhamed | 97793055 | 2022-02-26    | 2022-02-27  |     <mark style="background-color: burlywood;">1</mark> |           70 |
 +-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
 9 rows in set (0.001 sec)</code></pre>
             </div>
           </li>
           <li>Afficher la liste des véhicules ainsi que leurs prix.
-            <pre><code class="sql">SELECT matricule, vehicule, prix_unit FROM locations;</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">+-----------+------------------+
-| matricule | vehicule         |
-+-----------+------------------+
-| 205TU6551 | Seat IBIZA       |
-| 200TU4906 | Clio 4           |
-| 207TU4480 | Suzuki Swift-BVA |
-| 204TU9333 | Seat IBIZA       |
-| 205TU6551 | Seat IBIZA       |
-| 205TU9334 | Clio 5           |
-| 204TU9333 | Seat IBIZA       |
-| 207TU4480 | Suzuki Swift-BVA |
-| 207TU8780 | Clio 5           |
-+-----------+------------------+
-9 rows in set (0.000 sec)</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT matricule, vehicule, prix_unit FROM locations;</code></pre>
             </div>
-          </li>
-          <li>Afficher la liste des véhicules ainsi que leurs prix ordonnée par matricule.
-            <pre><code class="sql">SELECT matricule, vehicule, prix_unit FROM locations ORDER BY matricule;</code></pre>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------+------------------+-----------+
 | matricule | vehicule         | prix_unit |
 +-----------+------------------+-----------+
-| 200TU4906 | Clio 4           |        60 |
-| 204TU9333 | Seat IBIZA       |        60 |
-| 204TU9333 | Seat IBIZA       |        60 |
 | 205TU6551 | Seat IBIZA       |        60 |
+| 207TU4480 | Suzuki Swift-BVA |        80 |
+| 204TU9333 | Seat IBIZA       |        60 |
 | 205TU6551 | Seat IBIZA       |        60 |
 | 205TU9334 | Clio 5           |        70 |
-| 207TU4480 | Suzuki Swift-BVA |        80 |
+| 204TU9333 | Seat IBIZA       |        60 |
 | 207TU4480 | Suzuki Swift-BVA |        80 |
 | 207TU8780 | Clio 5           |        70 |
+| 205TU5651 | Seat IBIZA       |        60 |
++-----------+------------------+-----------+
+9 rows in set (0.016 sec)</code></pre>
+            </div>
+          </li>
+          <li>Afficher la liste des véhicules ainsi que leurs prix ordonnée par matricule.
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT matricule, vehicule, prix_unit FROM locations ORDER BY matricule;</code></pre>
+            </div>
+            <div class="d-print-none">
+              <pre><code class="nohighlight">+-----------+------------------+-----------+
+| matricule | vehicule         | prix_unit |
++-----------+------------------+-----------+
+| <mark style="background-color: burlywood;">200TU4906</mark> | Clio 4           |        60 |
+| <mark style="background-color: burlywood;">204TU9333</mark> | Seat IBIZA       |        60 |
+| <mark style="background-color: burlywood;">204TU9333</mark> | Seat IBIZA       |        60 |
+| <mark style="background-color: burlywood;">205TU6551</mark> | Seat IBIZA       |        60 |
+| <mark style="background-color: burlywood;">205TU6551</mark> | Seat IBIZA       |        60 |
+| <mark style="background-color: burlywood;">205TU9334</mark> | Clio 5           |        70 |
+| <mark style="background-color: burlywood;">207TU4480</mark> | Suzuki Swift-BVA |        80 |
+| <mark style="background-color: burlywood;">207TU4480</mark> | Suzuki Swift-BVA |        80 |
+| <mark style="background-color: burlywood;">207TU8780</mark> | Clio 5           |        70 |
 +-----------+------------------+-----------+
 9 rows in set (0.001 sec)</code></pre>
             </div>
           </li>
           <li>Afficher la liste des véhicules sans duplications.
-            <pre><code class="sql">SELECT DISTINCT matricule, vehicule, prix_unit FROM locations ORDER BY matricule;</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT DISTINCT matricule, vehicule, prix_unit FROM locations ORDER BY matricule;</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------+------------------+-----------+
 | matricule | vehicule         | prix_unit |
@@ -391,7 +404,9 @@ VALUES ('207TU8780', 'Clio 5', 70.0, 'Mouhamed', '97793055',
           </li>
           <li>Afficher la liste des noms des clients ainsi que leurs numéro de téléphone sans duplications et ordonnées
             par ordre alphabétique du nom.
-            <pre><code class="sql">SELECT DISTINCT client, tel FROM locations ORDER BY client;</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT DISTINCT client, tel FROM locations ORDER BY client;</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+----------+----------+
 | client   | tel      |
@@ -410,9 +425,11 @@ VALUES ('207TU8780', 'Clio 5', 70.0, 'Mouhamed', '97793055',
           </li>
           <li>Afficher les matricules, les dates de location ainsi que le nombre de jours de location des véhicules Clio
             5.
-            <pre><code class="sql">SELECT matricule, vehicule, date_location, jours 
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT matricule, vehicule, date_location, jours 
 FROM locations
 WHERE vehicule = 'Clio 5';</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------+----------+---------------+-------+
 | matricule | vehicule | date_location | jours |
@@ -424,7 +441,9 @@ WHERE vehicule = 'Clio 5';</code></pre>
             </div>
           </li>
           <li>Afficher la liste des locations effectuée en mois de Février 2022.
-            <pre><code class="sql">SELECT * FROM locations WHERE MONTH(date_location) = 2;</code></pre>
+            <div class="d-none d-print-block">
+              <pre><code class="sql">SELECT * FROM locations WHERE MONTH(date_location) = 2;</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
 | matricule | vehicule         | prix_unit | client   | tel      | date_location | date_retour | jours | prix_a_payer |
@@ -435,11 +454,13 @@ WHERE vehicule = 'Clio 5';</code></pre>
 2 rows in set (0.003 sec)</code></pre>
             </div>
           </li>
-          <li class="p-break">Le gérant de l'agence de location de voitures veut corriger une faute qui s'est glissée dans la table
+          <li class="p-break">Le gérant de l'agence de location de voitures veut corriger une faute qui s'est glissée
+            dans la table
             <code>locations</code> concernant le véhicule &laquo; 207TU8780 &raquo; loué le &laquo; 26/02/2022 &raquo;.
             Ce véhicule a été, en réalité, loué pendant cinq jours à partir du &laquo; 20/02/2022 &raquo;. Mettre à
             jour cet enregistrement.
-            <pre><code class="sql">UPDATE locations
+            <div class="d-none d-print-block">
+              <pre><code class="sql">UPDATE locations
 SET date_location = '2022-02-20', date_retour = '2022-02-25',
     jours = DATEDIFF(date_retour, date_location),
     prix_a_payer = prix_unit * jours
@@ -448,6 +469,7 @@ WHERE matricule = '207TU8780' AND date_location = '2022-02-26';
 SELECT * FROM locations 
 WHERE matricule = '207TU8780' AND
     date_location = '2022-02-20';</code></pre>
+            </div>
             <div class="d-print-none">
               <pre><code class="nohighlight">+-----------+----------+-----------+----------+----------+---------------+-------------+-------+--------------+
 | matricule | vehicule | prix_unit | client   | tel      | date_location | date_retour | jours | prix_a_payer |
@@ -461,7 +483,8 @@ WHERE matricule = '207TU8780' AND
             05/01/2022 &raquo; par &laquo; Monia &raquo;. Cette location a été
             annulée par le client à la dernière minute et le responsable a oublié de la supprimer de la table
             <code>locations</code>. Corriger cette erreur.
-            <pre><code class="sql">DELETE FROM locations
+            <div class="d-none d-print-block">
+              <pre><code class="sql">DELETE FROM locations
 WHERE client = 'Monia' AND
     date_location = '2022-01-05' AND
     vehicule = 'Clio 4';
@@ -470,8 +493,6 @@ SELECT * FROM locations
 WHERE client = 'Monia' AND
     date_location = '2022-01-05' AND
     vehicule = 'Clio 4';</code></pre>
-            <div class="d-print-none">
-              <pre><code class="nohighlight">Empty set (0.000 sec)</code></pre>
             </div>
           </li>
           <!--
