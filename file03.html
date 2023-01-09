@@ -91,7 +91,20 @@
         </div>
       </section>
       <section>
-        <h3>Enoncé</h3>
+        <h3>Partie Théorique</h3>
+        <p>Faire une recherche sur les thèmes suivants :</p>
+        <ul>
+          <li>Clé primaire</li>
+          <li>Relations</li>
+          <li>Contraintes d'intégrité</li>
+          <li>Schéma d'une base de données</li>
+        </ul>
+        <p>Vous pourrez consulter le cours de <span class="d-print-none"><a href="docs/Base_de_données.pdf" target="_blank"
+            rel="noopener noreferrer">base de données</a></span> <span class="d-none d-print-inline">base de données</span> pour répondre à ces
+          questions ou faire une recherche sur Internet.</p>
+      </section>
+      <section>
+        <h3>Partie Pratique</h3>
         <ol>
           <li>Créer une nouvelle base de données appelée <code>location_vehicules</code>. Puis, l'utiliser.
             <div class="d-none d-print-block">
@@ -227,7 +240,7 @@ USE location_vehicules;</code></pre>
             </table>
             <p><strong>On demande de regrouper ces colonnes dans plusieurs entités distinctes.</strong></p>
             <div class="d-none d-print-block">
-              <h4>Solution</h4>
+              <h4 class="p-break">Solution</h4>
               <p>On peut dégager trois entités, correspodants aux objets du monde réel, à partir du tableau précédent :
               </p>
               <ul>
@@ -259,8 +272,7 @@ USE location_vehicules;</code></pre>
     matricule VARCHAR(10) PRIMARY KEY NOT NULL,
     vehicule VARCHAR(32) NOT NULL,
     prix_unit DOUBLE NOT NULL DEFAULT 0.0,
-    libre CHAR(1) DEFAULT 'O' 
-                  CHECK (libre = 'O' OR libre = 'N')
+    libre CHAR(1) DEFAULT 'O' CHECK (libre = 'O' OR libre = 'N')
 );</code></pre>
             </div>
           </li>
@@ -287,13 +299,12 @@ USE location_vehicules;</code></pre>
     montant_location DOUBLE NOT NULL CHECK(montant_location >= 0.0),
     CONSTRAINT fk_location_1 FOREIGN KEY (matricule)
         REFERENCES vehicules (matricule)
-        ON UPDATE CASCADE
+        ON UPDATE CASCADE 
         ON DELETE CASCADE,
     CONSTRAINT fk_location_2 FOREIGN KEY (cin)
         REFERENCES clients (cin)
-        ON UPDATE CASCADE
-        ON DELETE CASCADE
-);</code></pre>
+        ON UPDATE CASCADE 
+        ON DELETE CASCADE);</code></pre>
             </div>
           </li>
           <li>Remplir la table <code>clients</code> par les données suivantes :
@@ -355,7 +366,7 @@ VALUES ('200TU4906', 'Clio 4', 60, 'O');</code></pre>
 VALUES ('203TU4480', '03972583', '2022-01-02', '2022-01-03', 80);</code></pre>
             </div>
           </li>
-          <li>Ajouter le nouveau client &laquo; Youssef &raquo; son <strong>cin</strong> est &laquo; 12569800 &raquo; et
+          <li class="p-break">Ajouter le nouveau client &laquo; Youssef &raquo; son <strong>cin</strong> est &laquo; 12569800 &raquo; et
             son <b>téléphone</b> est &laquo; 52349157 &raquo;.
             <div class="d-none d-print-block">
               <pre><code class="sql">INSERT INTO clients (cin, client, genre, tel)
@@ -366,7 +377,7 @@ VALUES ('12569800', 'Youssef', 'M', 52349157);</code></pre>
             <code>(client: 'Assia', cin: '12650890', tel: '52349157')</code> en utilisant la commande suivante :
             <pre><code class="sql">INSERT INTO clients (client, cin)
 VALUES ('Assia', '12650890');</code></pre>
-            <p class="p-break">Mais il obtient l'erreur suivante :</p>
+            <p>Mais il obtient l'erreur suivante :</p>
             <pre><code class="nohighlight">ERROR 1364 (HY000): Field 'tel' doesn't have a default value</code></pre>
             <p><strong>Quel est le problème ? Comment le corriger ?</strong></p>
             <div class="d-none d-print-block">
