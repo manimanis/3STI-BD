@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base de données</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/default.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <aside>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#aside_navbar"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="aside_navbar"></div>
+      </div>
+    </nav>
+  </aside>
+
+  <main class="my-4 container">
+    <h1>Base de données</h1>
+    <article>
+      <h2>TP n°1</h2>
+      <section>
+        <h3>Partie Pratique</h3>
+
+        <ol>
+          <li>Afficher la liste des bases de données disponibles.</li>
+          <li>Créer la base de données <code>location_voitures</code></li>
+          <li>Vérifier que la base de données <code>location_voitures</code> a été créée.</li>
+          <li>Utiliser la base de données <code>location_voitures</code> comme base de données par défaut.</li>
+          <li>Créer la table <code>locations</code>. La table possède les champs suivants :
+            <table class="table table-sm table-bordered table-striped border-dark dict-table mb-2">
+              <thead>
+                <tr>
+                  <th>Colonne</th>
+                  <th>Description</th>
+                  <th>Type de données</th>
+                  <th>Taille</th>
+                  <th>Oblig.</th>
+                  <th>Val. par déf.</th>
+                  <th>Val. auto.</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>matricule</td>
+                  <td>Matricule de la voiture</td>
+                  <td>Texte</td>
+                  <td>10</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>vehicule</td>
+                  <td>Marque de la voiture</td>
+                  <td>Texte</td>
+                  <td>32</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>prix_unit</td>
+                  <td>Prix de location pour une journée</td>
+                  <td>Numérique réel</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&ge; 0.0</td>
+                </tr>
+                <tr>
+                  <td>client</td>
+                  <td>Nom du client</td>
+                  <td>Texte</td>
+                  <td>32</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>tel</td>
+                  <td>Téléphone du client</td>
+                  <td>Texte</td>
+                  <td>16</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>date_location</td>
+                  <td>Date de location du véhicule</td>
+                  <td>Date</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>date_retour</td>
+                  <td>Date de retour du véhicule</td>
+                  <td>Date</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>jours</td>
+                  <td>Nombre de jours de location</td>
+                  <td>Numérique entier</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&gt; 0</td>
+                </tr>
+                <tr>
+                  <td>prix_a_payer</td>
+                  <td>Prix total de location du véhicule</td>
+                  <td>Numérique réel</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&ge; 0.0</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li>Vérifier que la table <code>locations</code> est créée.</li>
+          <li>Insérer les données suivantes dans la table <code>locations</code>.
+            <pre
+              style="font-size: 0.71em;"><code class="nohighlight">+-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
+| matricule | vehicule         | prix_unit | client   | tel      | date_location | date_retour | jours | prix_a_payer |
++-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
+| 205TU6551 | Seat IBIZA       |        60 | Mahmoud  | 56504673 | 2022-01-03    | 2022-01-05  |     2 |          120 |
+| 200TU4906 | Clio 4           |        60 | Monia    | 48880781 | 2022-01-05    | 2022-01-14  |     9 |          540 |
+| 207TU4480 | Suzuki Swift-BVA |        80 | Meriem   | 31827055 | 2022-01-05    | 2022-01-07  |     2 |          160 |
+| 204TU9333 | Seat IBIZA       |        60 | Mohammed | 56542559 | 2022-01-21    | 2022-01-30  |     9 |          540 |
+| 205TU6551 | Seat IBIZA       |        60 | Mouna    | 36774811 | 2022-01-25    | 2022-02-04  |    10 |          600 |
+| 205TU9334 | Clio 5           |        70 | Meriem   | 31827055 | 2022-01-27    | 2022-02-01  |     2 |          120 |
+| 204TU9333 | Seat IBIZA       |        60 | Mariem   | 59380983 | 2022-01-30    | 2022-02-01  |     2 |          120 |
+| 207TU4480 | Suzuki Swift-BVA |        80 | Mohamed  | 25848116 | 2022-02-04    | 2022-02-05  |     1 |           80 |
+| 207TU8780 | Clio 5           |        70 | Mouhamed | 97793055 | 2022-02-26    | 2022-02-27  |     1 |           70 |
++-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+</code></pre>
+          </li>
+          <li>Afficher tous les enregistrements de la table <code>locations</code>.</li>
+          <li>Afficher les locations par ordre décroissant du nombre de jours de location.</li>
+          <li>Afficher la liste des véhicules ainsi que leurs prix.</li>
+          <li>Afficher la liste des véhicules ainsi que leurs prix ordonnée par matricule.</li>
+          <li>Afficher la liste des véhicules sans duplications.</li>
+          <li>Afficher la liste des noms des clients ainsi que leurs numéro de téléphone sans duplications et ordonnées
+            par ordre alphabétique du nom.</li>
+          <li>Afficher les matricules, les dates de location ainsi que le nombre de jours de location des véhicules Clio
+            5.</li>
+          <li>Afficher la liste des locations effectuée en mois de Février 2022.</li>
+          <li>Le gérant de l'agence de location de voitures veut corriger une faute qui s'est glissée
+            dans la table
+            <code>locations</code> concernant le véhicule &laquo; 207TU8780 &raquo; loué le &laquo; 26/02/2022 &raquo;.
+            Ce véhicule a été, en réalité, loué pendant cinq jours à partir du &laquo; 20/02/2022 &raquo;. Mettre à
+            jour cet enregistrement.
+          </li>
+          <li>Une autre erreur a été retrourvée. Elle concerne le véhicule &laquo; Clio 4 &raquo; loué le &laquo;
+            05/01/2022 &raquo; par &laquo; Monia &raquo;. Cette location a été
+            annulée par le client à la dernière minute et le responsable a oublié de la supprimer de la table
+            <code>locations</code>. Corriger cette erreur.
+          </li>
+          <!--
+          li>(pre>code.sql)+(.d-print-none>pre>code.nohighlight)
+          li>(pre>code.sql)+(.d-print-none>pre>code.nohighlight)
+          li>(pre>code.sql)+(.d-print-none>pre>code.nohighlight)
+          li>(pre>code.sql)+(.d-print-none>pre>code.nohighlight)
+-->
+        </ol>
+      </section>
+    </article>
+  </main>
+
+  <footer class="d-print-none bg-dark text-white p-2">
+    <div class="text-center">Page créée par Mohamed Anis MANI avec ♥</div>
+    <div class="text-center small">Année scolaire : 2022/2023</div>
+  </footer>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/pages.js"></script>
+  <!--script src="assets/js/highlight.pack.js"></script-->
+  <script src="assets/js/highlight.min.js"></script>
+  <script src="assets/js/vue.min.js"></script>
+  <script src="assets/apps/app01.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+
+</html>
