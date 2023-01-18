@@ -2,7 +2,7 @@
 DROP DATABASE IF EXISTS location_voitures;
 
 -- Afficher la liste des bases de données disponibles
-SHOW DATABASES;
+SHOW DATABASES;;
 
 -- Création d'une nouvelle base de données
 CREATE DATABASE location_voitures;
