@@ -99,8 +99,9 @@
           <li>Contraintes d'intégrité</li>
           <li>Schéma d'une base de données</li>
         </ul>
-        <p>Vous pourrez consulter le cours de <span class="d-print-none"><a href="docs/Base_de_données.pdf" target="_blank"
-            rel="noopener noreferrer">base de données</a></span> <span class="d-none d-print-inline">base de données</span> pour répondre à ces
+        <p>Vous pourrez consulter le cours de <span class="d-print-none"><a href="docs/Base_de_données.pdf"
+              target="_blank" rel="noopener noreferrer">base de données</a></span> <span
+            class="d-none d-print-inline">base de données</span> pour répondre à ces
           questions ou faire une recherche sur Internet.</p>
       </section>
       <section>
@@ -326,15 +327,19 @@ VALUES ('03972583', 'Amir', 'M', '36704253');</code></pre>
 +-----------+------------------+-----------+-------+
 | 200TU4906 | Clio 4           |        60 | O     |
 | 203TU4480 | Suzuki Swift-BVA |        80 | O     |
-| 203TU8041 | Clio 4           |        60 | O     |
-| 204TU9333 | Seat IBIZA       |        60 | N     |
-| 205TU6551 | Seat IBIZA       |        60 | O     |
-| 205TU9334 | Clio 5           |        70 | N     |
-| 206TU5473 | Suzuki Swift-BVA |        80 | O     |
-| 206TU9804 | Clio 4           |        60 | O     |
-| 207TU4480 | Suzuki Swift-BVA |        80 | O     |
-| 207TU8780 | Clio 5           |        70 | O     |
 +-----------+------------------+-----------+-------+ </code></pre>
+            <pre class="d-none"><code class="nohighlight generate-insert" data-tablename="vehicules">+-----------+------------------+-----------+-------+
+  | matricule | vehicule         | prix_unit | libre |
+  +-----------+------------------+-----------+-------+
+  | 203TU8041 | Clio 4           |        60 | O     |
+  | 204TU9333 | Seat IBIZA       |        60 | N     |
+  | 205TU6551 | Seat IBIZA       |        60 | O     |
+  | 205TU9334 | Clio 5           |        70 | N     |
+  | 206TU5473 | Suzuki Swift-BVA |        80 | O     |
+  | 206TU9804 | Clio 4           |        60 | O     |
+  | 207TU4480 | Suzuki Swift-BVA |        80 | O     |
+  | 207TU8780 | Clio 5           |        70 | O     |
+  +-----------+------------------+-----------+-------+ </code></pre>
             <div class="d-none d-print-block">
               <pre><code class="sql">INSERT INTO vehicules (matricule, vehicule, prix_unit, libre)
 VALUES ('200TU4906', 'Clio 4', 60, 'O');</code></pre>
@@ -346,6 +351,12 @@ VALUES ('200TU4906', 'Clio 4', 60, 'O');</code></pre>
 +--------------+-----------+----------+---------------+-------------+------------------+
 |            1 | 203TU4480 | 03972583 | 2022-01-02    | 2022-01-03  |               80 |
 |            2 | 206TU5473 | 04202363 | 2022-01-02    | 2022-01-03  |               80 |
++--------------+-----------+----------+---------------+-------------+------------------+</code></pre>
+            <p>On remarque qu'au lieu de saisir les informations des clients et des véhicules à chaque fois il nous
+              suffit juste d'insérer le <code>cin</code> du client et le <code>matricule</code> du véhicule loué.</p>
+            <pre class="d-none"><code class="nohighlight generate-insert" data-tablename="locations">+--------------+-----------+----------+---------------+-------------+------------------+
+| num_location | matricule | cin      | date_location | date_retour | montant_location |
++--------------+-----------+----------+---------------+-------------+------------------+
 |            3 | 203TU8041 | 04202363 | 2022-01-05    | 2022-01-06  |               60 |
 |            4 | 203TU8041 | 03972583 | 2022-01-06    | 2022-01-09  |              180 |
 |            5 | 205TU6551 | 04202363 | 2022-01-07    | 2022-01-08  |               60 |
@@ -359,14 +370,13 @@ VALUES ('200TU4906', 'Clio 4', 60, 'O');</code></pre>
 |           13 | 205TU9334 | 04202363 | 2022-01-28    | 2022-02-03  |              420 |
 |           14 | 204TU9333 | 03972583 | 2022-01-28    | 2022-02-01  |              240 |
 +--------------+-----------+----------+---------------+-------------+------------------+</code></pre>
-            <p>On remarque qu'au lieu de saisir les informations des clients et des véhicules à chaque fois il nous
-              suffit juste d'insérer le <code>cin</code> du client et le <code>matricule</code> du véhicule loué.</p>
             <div class="d-none d-print-block">
               <pre><code class="sql">INSERT INTO locations (matricule, cin, date_location, date_retour, montant_location)
 VALUES ('203TU4480', '03972583', '2022-01-02', '2022-01-03', 80);</code></pre>
             </div>
           </li>
-          <li class="p-break">Ajouter le nouveau client &laquo; Youssef &raquo; son <strong>cin</strong> est &laquo; 12569800 &raquo; et
+          <li class="p-break">Ajouter le nouveau client &laquo; Youssef &raquo; son <strong>cin</strong> est &laquo;
+            12569800 &raquo; et
             son <b>téléphone</b> est &laquo; 52349157 &raquo;.
             <div class="d-none d-print-block">
               <pre><code class="sql">INSERT INTO clients (cin, client, genre, tel)
@@ -539,6 +549,7 @@ SELECT * FROM locations WHERE matricule = '207TU8780';</code></pre>
   <script src="assets/js/highlight.min.js"></script>
   <script src="assets/js/vue.min.js"></script>
   <script src="assets/apps/app01.js"></script>
+  <script src="assets/js/sqlquery.js"></script>
   <script>
     hljs.initHighlightingOnLoad();
   </script>

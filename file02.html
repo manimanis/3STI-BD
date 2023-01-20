@@ -78,8 +78,9 @@
           <li>Un enregistrement</li>
           <li>Un champ</li>
         </ul>
-        <p>Vous pourrez consulter le cours de <span class="d-print-none"><a href="docs/Base_de_données.pdf" target="_blank"
-            rel="noopener noreferrer">base de données</a></span> <span class="d-none d-print-inline">base de données</span> pour répondre à ces
+        <p>Vous pourrez consulter le cours de <span class="d-print-none"><a href="docs/Base_de_données.pdf"
+              target="_blank" rel="noopener noreferrer">base de données</a></span> <span
+            class="d-none d-print-inline">base de données</span> pour répondre à ces
           questions ou faire une recherche sur Internet.</p>
       </section>
       <section>
@@ -260,7 +261,7 @@
           </li>
           <li class="p-break">Insérer les données suivantes dans la table <code>locations</code>.
             <pre
-              style="font-size: 0.71em;"><code class="nohighlight">+-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
+              style="font-size: 0.71em;"><code class="nohighlight generate-insert" data-tablename="locations">+-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
 | matricule | vehicule         | prix_unit | client   | tel      | date_location | date_retour | jours | prix_a_payer |
 +-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+
 | 205TU6551 | Seat IBIZA       |        60 | Mahmoud  | 56504673 | 2022-01-03    | 2022-01-05  |     2 |          120 |
@@ -273,7 +274,6 @@
 | 207TU4480 | Suzuki Swift-BVA |        80 | Mohamed  | 25848116 | 2022-02-04    | 2022-02-05  |     1 |           80 |
 | 207TU8780 | Clio 5           |        70 | Mouhamed | 97793055 | 2022-02-26    | 2022-02-27  |     1 |           70 |
 +-----------+------------------+-----------+----------+----------+---------------+-------------+-------+--------------+</code></pre>
-
             <div class="d-none d-print-block">
               <pre><code class="sql">INSERT INTO locations (matricule, vehicule, prix_unit, client, tel, 
     date_location, date_retour, jours, prix_a_payer)
@@ -535,6 +535,7 @@ WHERE client = 'Monia' AND
   <script src="assets/js/highlight.min.js"></script>
   <script src="assets/js/vue.min.js"></script>
   <script src="assets/apps/app01.js"></script>
+  <script src="assets/js/sqlquery.js"></script>
   <script>
     hljs.initHighlightingOnLoad();
   </script>
