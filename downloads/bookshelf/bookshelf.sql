@@ -1,9 +1,10 @@
 DROP DATABASE IF EXISTS bookshelf;
 
+-- (1) Créer une base de données et l'utiliser
 CREATE DATABASE bookshelf;
-
 USE bookshelf;
 
+-- (3) Créer la table books
 CREATE TABLE books (
     book_id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(128) NOT NULL,
@@ -13,6 +14,7 @@ CREATE TABLE books (
     pub_date DATE
 );
 
+-- (4) Insérer des données dans la table books
 INSERT INTO books (book_id, title, lang, pages, author_name, pub_date)
 VALUES ('1', 'The Prophet', 'ENG', '127', 'Jihad El', '2010-01-01'),
 ('2', 'After the Funeral', 'ENG', '251', 'Agatha Christie', '2001-07-02'),
@@ -58,3 +60,59 @@ VALUES ('1', 'The Prophet', 'ENG', '127', 'Jihad El', '2010-01-01'),
 ('42', 'Piccole donne', 'ITA', '288', 'Jame\'s Prunier', '2001-04-15'),
 ('43', 'L\'albero', 'ITA', '62', 'Daniela Gamba', '2000-05-01'),
 ('44', 'La regina dei dannati', 'ITA', '507', 'Anne Rice', '1997-02-01');
+
+-- (5) Afficher la liste de tous les livres. 
+SELECT * FROM books;
+
+-- (6) Afficher la liste des 5 premiers livres.
+SELECT * FROM books LIMIT 5;
+
+-- (7) Afficher la liste des 5 derniers livres.
+SELECT * FROM books LIMIT 39, 5;
+
+-- (8) Afficher la liste des 5 livres les plus récents par date de publication.
+SELECT * FROM books ORDER BY pub_date DESC LIMIT 5;
+
+-- (9) Afficher la liste des livres en français (book_id, title, author_name).
+SELECT book_id, title, author_name FROM books WHERE lang = 'FRA';
+
+-- (10) Afficher le livre français le plus vieux dans la collection (title, author_name, pub_date).
+SELECT title, author_name, pub_date FROM books WHERE lang = 'FRA' ORDER BY pub_date LIMIT 1;
+
+-- (11) Afficher les langues des livres sans répétitions.
+SELECT DISTINCT lang FROM books;
+
+-- (12) Afficher les livres anglais par ordre alphabétique croissant du titre.
+SELECT * FROM books WHERE lang = 'ENG' ORDER BY title;
+
+-- (13) Afficher la liste des livres anglais qui commencent par la lettre 's'.
+SELECT * FROM books 
+WHERE lang = 'ENG' AND title LIKE 's%'
+ORDER BY pub_date DESC;
+
+-- (14) Afficher la liste des livres écrits par l'auteur 'Philippa Gregory'.
+SELECT * FROM books
+WHERE author_name = 'Philippa Gregory'
+ORDER BY pub_date DESC;
+
+-- (15) Afficher la liste des livres qui comptent moins de 100 pages par ordre croissant du nombre de pages.
+SELECT * FROM books
+WHERE pages < 100
+ORDER BY pages;
+
+-- (16) Afficher la liste du top 5 des livres en fonction du nombre de pages.
+SELECT * FROM books
+ORDER BY pages DESC
+LIMIT 5;
+
+-- (17) Afficher la liste des années de publiation de tous les livres sans duplications.
+SELECT DISTINCT YEAR(pub_date) AS year FROM books ORDER BY year;
+
+-- (18) Afficher la liste des livres publiés en 2003.
+SELECT * FROM books WHERE YEAR(pub_date) = 2003 ORDER BY pub_date;
+
+-- (19) Afficher la liste des livres publiés dans la période [1974, 1995].
+SELECT * FROM books WHERE YEAR(pub_date) BETWEEN 1974 AND 1995 ORDER BY pub_date;
+
+-- (20) Afficher la liste des livres italiens qui commencent par la lettre 'P' ou qui comptent moins de 70 pages.
+SELECT * FROM books WHERE lang = 'ITA' AND (title LIKE 'P%' OR pages < 70);
