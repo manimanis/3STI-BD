@@ -31,6 +31,78 @@
       <h2>TP n°3</h2>
       <section>
         <h3>Partie Pratique</h3>
+        <p>La bibliothèque de Mondher est multi-lingues. Il veut créer une base de données lui facilitant la recherche
+          de ses livres.</p>
+        <p>Actuellement, Mondher a besoin des informations suivantes :</p>
+        <table class="table table-sm table-bordered table-striped border-dark dict-table mb-2">
+          <thead>
+            <tr>
+              <th>Colonne</th>
+              <th>Description</th>
+              <th>Type de données</th>
+              <th>Taille</th>
+              <th>Oblig.</th>
+              <th>Val. par déf.</th>
+              <th>Val. auto.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>book_id</td>
+              <td>Numéro de série du livre</td>
+              <td>Numérique Entier</td>
+              <td>&nbsp;</td>
+              <td>✔</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>title</td>
+              <td>Titre du livre</td>
+              <td>Texte</td>
+              <td>128</td>
+              <td>✔</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>lang</td>
+              <td>Langue utilisée par le livre</td>
+              <td>Texte</td>
+              <td>3</td>
+              <td>✔</td>
+              <td>"ENG"</td>
+              <td>LONG(language) = 3</td>
+            </tr>
+            <tr>
+              <td>pages</td>
+              <td>Nombre de pages du livre</td>
+              <td>Numérique Entier</td>
+              <td>&nbsp;</td>
+              <td>✔</td>
+              <td>&nbsp;</td>
+              <td>&ge; 0</td>
+            </tr>
+            <tr>
+              <td>author_name</td>
+              <td>Nom du l'auteur</td>
+              <td>Texte</td>
+              <td>128</td>
+              <td>✔</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>pub_date</td>
+              <td>Date du publication du livre</td>
+              <td>Date</td>
+              <td>&nbsp;</td>
+              <td>✔</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
         <ol>
           <li>Créer une nouvelle base de données appelée <code>bookshelf</code>. Puis, l'utiliser.
             <div class="d-none d-print-block">
@@ -39,77 +111,6 @@ CREATE DATABASE bookshelf;
 -- Utiliser la base de données bookshelf
 USE bookshelf;</code></pre>
             </div>
-          </li>
-          <li>Le gérant de la bibliothèque a besoin des informations suivantes :
-            <table class="table table-sm table-bordered table-striped border-dark dict-table mb-2">
-              <thead>
-                <tr>
-                  <th>Colonne</th>
-                  <th>Description</th>
-                  <th>Type de données</th>
-                  <th>Taille</th>
-                  <th>Oblig.</th>
-                  <th>Val. par déf.</th>
-                  <th>Val. auto.</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>book_id</td>
-                  <td>Numéro de série du livre</td>
-                  <td>Numérique Entier</td>
-                  <td>&nbsp;</td>
-                  <td>✔</td>
-                  <td>&nbsp;</td>
-                  <td>&nbsp;</td>
-                </tr>
-                <tr>
-                  <td>title</td>
-                  <td>Titre du livre</td>
-                  <td>Texte</td>
-                  <td>128</td>
-                  <td>✔</td>
-                  <td>&nbsp;</td>
-                  <td>&nbsp;</td>
-                </tr>
-                <tr>
-                  <td>lang</td>
-                  <td>Langue utilisée par le livre</td>
-                  <td>Texte</td>
-                  <td>3</td>
-                  <td>✔</td>
-                  <td>"ENG"</td>
-                  <td>LONG(language) = 3</td>
-                </tr>
-                <tr>
-                  <td>pages</td>
-                  <td>Nombre de pages du livre</td>
-                  <td>Numérique Entier</td>
-                  <td>&nbsp;</td>
-                  <td>✔</td>
-                  <td>&nbsp;</td>
-                  <td>&ge; 0</td>
-                </tr>
-                <tr>
-                  <td>author_name</td>
-                  <td>Nom du l'auteur</td>
-                  <td>Texte</td>
-                  <td>128</td>
-                  <td>✔</td>
-                  <td>&nbsp;</td>
-                  <td>&nbsp;</td>
-                </tr>
-                <tr>
-                  <td>pub_date</td>
-                  <td>Date du publication du livre</td>
-                  <td>Date</td>
-                  <td>&nbsp;</td>
-                  <td>✔</td>
-                  <td>&nbsp;</td>
-                  <td>&nbsp;</td>
-                </tr>
-              </tbody>
-            </table>
           </li>
           <li>Créer la table <code>books</code>.
             <p>Les enregistrement de la table sont identifiés par la colonne <code>book_id</code>.</p>
@@ -134,12 +135,13 @@ USE bookshelf;</code></pre>
 |       1 | The Prophet             | ENG  |   127 | Jihad El                         | 2010-01-01 |
 |       2 | After the Funeral       | ENG  |   251 | Agatha Christie                  | 2001-07-02 |
 +---------+-------------------------+------+-------+----------------------------------+------------+</code></pre>
-            <div class="d-none d-print-block p-break">
+            <div class="d-none d-print-block">
               <pre><code class="sql">INSERT INTO books (book_id, title, lang, pages, author_name, pub_date)
 VALUES ('1', 'The Prophet', 'ENG', '127', 'Jihad El', '2010-01-01'),
 ('2', 'After the Funeral', 'ENG', '251', 'Agatha Christie', '2001-07-02');</code></pre>
             </div>
-            <pre class="d-none"><code class="nohighlight generate-insert" data-tablename="books">+---------+-------------------------+------+-------+----------------------------------+------------+
+            <div class="d-print-none">
+              <pre class="d-none"><code class="nohighlight generate-insert" data-tablename="books">+---------+-------------------------+------+-------+----------------------------------+------------+
 | book_id | title                   | lang | pages | author_name                      | pub_date   |
 +---------+-------------------------+------+-------+----------------------------------+------------+
 |       3 | Rage of Angels          | ENG  |   512 | Sidney Sheldon                   | 1999-08-03 |
@@ -185,6 +187,13 @@ VALUES ('1', 'The Prophet', 'ENG', '127', 'Jihad El', '2010-01-01'),
 |      43 | L'albero                | ITA  |    62 | Daniela Gamba                    | 2000-05-01 |
 |      44 | La regina dei dannati   | ITA  |   507 | Anne Rice                        | 1997-02-01 |
 +---------+-------------------------+------+-------+----------------------------------+------------+</code></pre>
+            </div>
+
+          </li>
+          <li>Insérer les données suivantes :
+            <pre><code class="sql">INSERT INTO books (title, lang)
+VALUES ('MySQL', 'FR');</code></pre>
+            <strong>Que remarquez-vous ?</strong>
           </li>
           <li>Afficher la liste de tous les livres.
             <div class="d-none d-print-block">
@@ -405,7 +414,8 @@ ORDER BY pub_date DESC;</code></pre>
 </code></pre>
             </div>
           </li>
-          <li class="p-break">Afficher la liste des livres qui comptent moins de 100 pages par ordre croissant du nombre de pages.
+          <li class="p-break">Afficher la liste des livres qui comptent moins de 100 pages par ordre croissant du nombre
+            de pages.
             <div class="d-none d-print-block">
               <pre><code class="sql">SELECT * FROM books
 WHERE pages < 100

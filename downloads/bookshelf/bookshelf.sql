@@ -4,17 +4,17 @@ DROP DATABASE IF EXISTS bookshelf;
 CREATE DATABASE bookshelf;
 USE bookshelf;
 
--- (3) Créer la table books
+-- (2) Créer la table books
 CREATE TABLE books (
     book_id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(128) NOT NULL,
     lang VARCHAR(3) NOT NULL DEFAULT "ENG" CHECK(LENGTH(lang) = 3),
-    pages INT CHECK(pages > 0),
-    author_name VARCHAR(128),
-    pub_date DATE
+    pages INT NOT NULL CHECK(pages >= 0),
+    author_name VARCHAR(128) NOT NULL,
+    pub_date DATE NOT NULL
 );
 
--- (4) Insérer des données dans la table books
+-- (3) Insérer des données dans la table books
 INSERT INTO books (book_id, title, lang, pages, author_name, pub_date)
 VALUES ('1', 'The Prophet', 'ENG', '127', 'Jihad El', '2010-01-01'),
 ('2', 'After the Funeral', 'ENG', '251', 'Agatha Christie', '2001-07-02'),
@@ -60,6 +60,10 @@ VALUES ('1', 'The Prophet', 'ENG', '127', 'Jihad El', '2010-01-01'),
 ('42', 'Piccole donne', 'ITA', '288', 'Jame\'s Prunier', '2001-04-15'),
 ('43', 'L\'albero', 'ITA', '62', 'Daniela Gamba', '2000-05-01'),
 ('44', 'La regina dei dannati', 'ITA', '507', 'Anne Rice', '1997-02-01');
+
+-- (4) Insérer les données suivantes :
+INSERT INTO books (title, lang)
+VALUES ('MySQL', 'FR');
 
 -- (5) Afficher la liste de tous les livres. 
 SELECT * FROM books;

@@ -45,7 +45,7 @@ $(() => {
   $('.generate-insert').each(function () {
     const thisObj = $(this);
     const insQuery = insert_query(thisObj.text(), thisObj.data('tablename'));
-    const div = $('<div class="d-print-none">')
+    const div = $('<div>')
       .insertAfter(thisObj.parents('pre'));
     $('<p>')
       .html("<strong>Requête d'insertion</strong>")
