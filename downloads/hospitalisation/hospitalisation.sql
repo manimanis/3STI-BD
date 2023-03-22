@@ -207,3 +207,123 @@ VALUES ('10','P13','2021-06-28','2021-06-28','241.0'),
 	('50','P40','2021-12-07','2021-12-07','60.0'),
 	('40','P40','2021-12-08','2021-12-08','60.0'),
 	('50','P40','2021-12-08','2021-12-08','60.0');
+
+
+/**/
+DROP DATABASE IF EXISTS myclasses;
+CREATE DATABASE myclasses;
+USE myclasses;
+
+CREATE TABLE Eleves (
+	numel CHAR(4) NOT NULL PRIMARY KEY CHECK(LEFT(numel,1)='E' AND (RIGHT(numel, 3)*1) BETWEEN 1 AND 999),
+	nom VARCHAR(32) NOT NULL,
+	prenom VARCHAR(32) NOT NULL,
+	genre CHAR(1) DEFAULT 'M' CHECK(genre IN ('M','F')),
+	datenaiss DATE NOT NULL
+);
+
+CREATE TABLE Classes (
+    numcl CHAR(4) NOT NULL PRIMARY KEY CHECK(LEFT(numcl,1)='C' AND (RIGHT(numcl,3)*1) BETWEEN 1 AND 999),
+    libelle VARCHAR(16) NOT NULL,
+    niveau INT NOT NULL DEFAULT 1 CHECK(niveau BETWEEN 1 AND 4),
+    section VARCHAR(16) NOT NULL,
+    numord INT NOT NULL DEFAULT 1 CHECK(numord >= 1)
+);
+
+CREATE TABLE ClassesEleves (
+	numel CHAR(4) NOT NULL REFERENCES Eleves (numel) ON UPDATE CASCADE ON DELETE CASCADE,
+	numcl CHAR(4) NOT NULL REFERENCES Classes (numcl) ON UPDATE CASCADE ON DELETE CASCADE,
+	annee INT NOT NULL,
+	PRIMARY KEY (numel, numcl, annee)
+);
+
+INSERT INTO Eleves (numel, nom, prenom, genre, datenaiss)
+VALUES ('E001', 'Mazzez', 'Adem', 'M', '2007-05-04'),
+	('E002', 'Eddai', 'Dania', 'F', '2007-06-24'),
+	('E003', 'Gharzoul', 'Raslène', 'M', '2006-10-16'),
+	('E004', 'Ziraoui', 'Safa', 'F', '2008-12-10'),
+	('E005', 'Hassen', 'Mehdi', 'M', '2006-10-16');
+
+INSERT INTO Classes (numcl, libelle, niveau, section, numord)
+VALUES ('C001', '2INFO2', 2, 'INFO', 2),
+	('C002', '3INFO', 3, 'INFO', 1),
+	('C003', '2ECO1', 2, 'ECO', 1),
+	('C004', '2INFO', 2, 'INFO', 1);
+
+INSERT INTO ClassesEleves (numel, numcl, annee)
+VALUES ('E001', 'C001', 2022),
+	('E002', 'C001', 2022),
+	('E003', 'C002', 2022),
+	('E004', 'C002', 2022),
+	('E003', 'C004', 2021),
+	('E004', 'C004', 2021);
+
+-- 1
+SELECT nom, prenom, libelle, annee
+FROM Eleves AS e, Classes AS c, ClassesEleves AS ce
+WHERE ce.numel = e.numel AND
+	ce.numcl = c.numcl;
+
+-- 2
+SELECT nom, prenom, libelle, annee
+FROM Eleves AS e, Classes AS c, ClassesEleves AS ce
+WHERE ce.numel = e.numel AND
+	ce.numcl = c.numcl;
+
+-- 3
+SELECT MIN(datenaiss) AS datenaiss
+FROM Eleves;
+
+-- 4
+SELECT nom, prenom
+FROM Eleves
+WHERE datenaiss = (SELECT MIN(datenaiss)
+				   FROM Eleves);
+
+-- 5
+SELECT libelle, annee
+FROM Eleves AS e, Classes AS c, ClassesEleves AS ce
+WHERE ce.numel = e.numel AND
+	ce.numcl = c.numcl AND 
+	nom = 'Ziraoui' AND
+	prenom = 'Safa'
+ORDER BY annee;
+
+-- 6
+SELECT nom, prenom, CONCAT((niveau+1), section) AS niveau23
+FROM Eleves AS e, Classes AS c, ClassesEleves AS ce
+WHERE ce.numel = e.numel AND
+	ce.numcl = c.numcl AND
+	annee = 2022;
+
+-- 7
+SELECT numcl
+FROM Eleves AS e, ClassesEleves AS ce
+WHERE ce.numel = e.numel AND
+      nom = 'Mazzez' AND
+	  prenom = 'Adem' AND
+	  annee = 2022;
+
+-- 8
+SELECT nom, prenom, genre
+FROM Eleves AS e, ClassesEleves AS ce
+WHERE ce.numel = e.numel AND
+	ce.numcl = (SELECT numcl
+				FROM Eleves AS e, ClassesEleves AS ce
+				WHERE ce.numel = e.numel AND
+					nom = 'Mazzez' AND
+					prenom = 'Adem' AND
+					annee = 2022) AND
+	annee = 2022;
+
+-- 9
+SELECT nom, prenom
+FROM Eleves
+WHERE numel NOT IN (SELECT DISTINCT numel
+					FROM ClassesEleves);
+
+-- 10
+SELECT *
+FROM Classes
+WHERE numcl NOT IN (SELECT DISTINCT numcl
+					FROM ClassesEleves);
